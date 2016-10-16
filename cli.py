@@ -118,7 +118,7 @@ class CLI( Cmd ):
         """The format is iperfmulti 10(s) 3(times) 130(K)"""
         args = line.split()
         if len(args) == 0:
-            self.mn.iperfmulti()
+            self.mn.iperfMulti()
         elif len(args) == 1:
             cycle_num = int(args[ 0 ])
             self.mn.iperfMulti( cycle_num )

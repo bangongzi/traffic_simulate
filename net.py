@@ -896,12 +896,12 @@ class Mininet( object ):
     def on_off( self,hosts,cycle_num,alpha):
         """Give the model of a simple 
         ON_OFF module"""
-        lient,server = hosts
+        client,server = hosts
         for i in range( cycle_num ):
-            t1 = random.paretovariate( alpha ) * 25
-            t2 = random.paretovariate( alpha ) * 25
+            t1 = random.paretovariate( alpha ) * 0.025
+            t2 = random.paretovariate( alpha ) * 0.025
             #on mode
-            clinet.cmd( 'iperf -t' + ' ' + str(t1) + ' -c' + ' ' + server.IP() )
+            client.cmd( 'iperf -t' + ' ' + str(t1) + ' -c' + ' ' + server.IP() )
             #off mode
             time.sleep(t2)
         return 1
@@ -918,7 +918,7 @@ class Mininet( object ):
     	    for j in xrange(0, tag_num):
                 client = host_list[j]
 #                thread.start_new_thread(on_off,([client,server],1.5,100,))
-                mark = on_off([client,server],100,1.5)
+                mark = self.on_off([client,server],cycle_num,alpha)
         print time.strftime('%Y-%m-%d %H:%M:%S')    
         print "The test has been done\n"
 
@@ -931,7 +931,7 @@ class Mininet( object ):
             host = host_list[i]
             seq_num = host.name[1:]
             host.cmd('./host_port_config.sh'+' '+seq_num+' 0'+' 100'+ ' ' +bandwidth )
-        print "The ports of host1 to host200 has been configured"
+        print "The ports of host1 to host%d has been configured" %tag_num
 	
 ##################################################################################
 ##############################changed part ends###################################
