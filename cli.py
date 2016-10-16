@@ -133,8 +133,7 @@ class CLI( Cmd ):
             alpha = float(args[ 2 ])
             self.mn.iperfMulti( cycle_num,repeat_time,alpha)
         else:
-            error('invalid number of args: iperfmulti udpBw period\n' +
-               'udpBw examples: 1M 120\n')
+            error('invalid number of args: iperfmulti 100(cycle_num) 1(repeat_time) 1.5(alpha)\n' )
 
     def do_hostports( self, line ):
         "Configure host ports to a given transmit speed"
