@@ -113,6 +113,28 @@ from mininet.term import cleanUpScreens, makeTerms
 # Mininet version: should be consistent with README and LICENSE
 VERSION = "2.3.0d1"
 
+###############################headerchanged part############################################
+def on_off( hosts,test_time,alpha,lock ):
+    """Give the model of a simple 
+    ON_OFF module"""
+    client,server = hosts
+    print "Thread%s starts at:" %client.name[1:],time.strftime('%Y-%m-%d %H:%M:%S')
+    a = time.time() + test_time
+    b = time.time()
+    while b <  a :
+        b = time.time()
+        t1 = random.paretovariate( alpha ) * 0.025
+        t2 = random.paretovariate( alpha ) * 0.025
+        if (t1+t2)>(a-b+3):
+            continue
+        #on mode
+        client.cmd( 'iperf -t' + ' ' + str(t1) + ' -c' + ' ' + server.IP() )
+        #off mode
+        time.sleep(t2)
+    print "Thread%s ends at:" %client.name[1:],time.strftime('%Y-%m-%d %H:%M:%S')
+    lock.release()
+    return
+
 class Mininet( object ):
     "Network emulation with hosts spawned in network namespaces."
 
@@ -877,7 +899,7 @@ class Mininet( object ):
         cls.inited = True
 
 ##################################################################################
-##############################changed part starts#################################
+##############################bodychanged part starts#################################
 ##################################################################################
     def iperf_single( self,hosts=None,period=60,window_size = 45):
         """Run iperf between two hosts using TCP.
@@ -893,38 +915,30 @@ class Mininet( object ):
         iperfArgs = 'iperf '
         client.cmd( 'iperf' + ' -t '+ str(period) + ' -c ' + server.IP() +' &' )
 
-    def on_off( self,hosts,cycle_num,alpha):
-        """Give the model of a simple 
-        ON_OFF module"""
-        client,server = hosts
-        for i in range( cycle_num ):
-            t1 = random.paretovariate( alpha ) * 0.025
-            t2 = random.paretovariate( alpha ) * 0.025
-            #on mode
-            client.cmd( 'iperf -t' + ' ' + str(t1) + ' -c' + ' ' + server.IP() )
-            #off mode
-            time.sleep(t2)
-        return 1
-
-    def iperfMulti(self,cycle_num = 100,repeat_time = 1,alpha = 1.5 ):
-        host_list = []
+    def iperfMulti(self,test_time = 15,alpha = 1.5 ):
+        """Get to activate many hosts.each host give out a on_off traffic
+        The basic way to use mutiple hosts is thread"""
         host_list = [h for h in self.hosts]
+        locks = []
         tag_num = len(host_list) - 1
         server= host_list[tag_num]
-        mark = 0
-        print time.strftime('%Y-%m-%d %H:%M:%S')
-        for i in xrange(0,repeat_time):
-            print "test%d begins:" %(i+1)
-    	    for j in xrange(0, tag_num):
-                client = host_list[j]
-#                thread.start_new_thread(on_off,([client,server],1.5,100,))
-                mark = self.on_off([client,server],cycle_num,alpha)
-        print time.strftime('%Y-%m-%d %H:%M:%S')    
-        print "The test has been done\n"
+        print "The test starts at:",time.strftime('%Y-%m-%d %H:%M:%S')
+    	for i in xrange(0, tag_num):
+            lock = thread.allocate_lock()
+            lock.acquire()
+            locks.append(lock)
+        print "\n\n"
+        for i in xrange(0,tag_num):
+            client = host_list[i]
+            thread.start_new_thread( on_off,([client,server],test_time,alpha,locks[i],))
+            time.sleep(0.001)
+        for i in xrange(0,tag_num):
+            while locks[i].locked():
+                pass
+        print "The test ends at:",time.strftime('%Y-%m-%d %H:%M:%S')
 
     def host_ports_config( self,bandwidth = '0.1' ):
         """Configure host ports to a given transmit speed"""
-        host_list = []
         host_list = [h for h in self.hosts]
         tag_num = len(host_list) - 1
         for i in xrange(0,tag_num):
@@ -934,7 +948,7 @@ class Mininet( object ):
         print "The ports of host1 to host%d has been configured" %tag_num
 	
 ##################################################################################
-##############################changed part ends###################################
+##############################body part ends###################################
 ##################################################################################
 class MininetWithControlNet( Mininet ):
 

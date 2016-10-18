@@ -120,28 +120,24 @@ class CLI( Cmd ):
         if len(args) == 0:
             self.mn.iperfMulti()
         elif len(args) == 1:
-            cycle_num = int(args[ 0 ])
-            self.mn.iperfMulti( cycle_num )
+            test_time = int(args[ 0 ])
+            self.mn.iperfMulti( test_time )
         elif len(args) == 2:
-            cycle_num = int(args[ 0 ])
-            repeat_time = int(args[ 1 ])
+            test_time = int(args[ 0 ])
+            alpha = float(args[ 1 ])
             err = False
-            self.mn.iperfMulti( cycle_num,repeat_time )
-        elif len(args) == 3:
-            cycle_num = int(args[ 0 ])
-            repeat_time = int(args[ 1 ])
-            alpha = float(args[ 2 ])
-            self.mn.iperfMulti( cycle_num,repeat_time,alpha)
+            self.mn.iperfMulti( test_time,alpha )
         else:
-            error('invalid number of args: iperfmulti udpBw period\n' +
-               'udpBw examples: 1M 120\n')
+            error('invalid number of args: iperfmulti 15(test_time) 1.5(alpha)\n' )
 
     def do_hostports( self, line ):
         "Configure host ports to a given transmit speed"
         args = line.split()
+        if len(args) == 0:
+            self.mn.host_ports_config()
         if len(args) == 1:
             bdwidth = args[ 0 ] 
-        self.mn.host_ports_config( bdwidth )
+            self.mn.host_ports_config( bdwidth )
 
     def emptyline( self ):
         "Don't repeat last command when you hit return."
