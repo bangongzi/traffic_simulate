@@ -113,34 +113,51 @@ class CLI( Cmd ):
 ############################################################
 ###########################changed do_iperfmulti############
 ############################################################
-    def do_iperfmulti( self, line ):
+    def do_onoffmulti( self, line ):
         """Multi iperf TCP test between nodes"""
         """The format is iperfmulti 10(s) 3(times) 130(K)"""
         args = line.split()
         if len(args) == 0:
-            self.mn.iperfMulti()
+            self.mn.onoff_multi()
         elif len(args) == 1:
-            cycle_num = int(args[ 0 ])
-            self.mn.iperfMulti( cycle_num )
+            test_time = int(args[ 0 ])
+            self.mn.onoff_multi( test_time )
         elif len(args) == 2:
-            cycle_num = int(args[ 0 ])
-            repeat_time = int(args[ 1 ])
+            test_time = int(args[ 0 ])
+            alpha = float(args[ 1 ])
             err = False
-            self.mn.iperfMulti( cycle_num,repeat_time )
-        elif len(args) == 3:
-            cycle_num = int(args[ 0 ])
-            repeat_time = int(args[ 1 ])
-            alpha = float(args[ 2 ])
-            self.mn.iperfMulti( cycle_num,repeat_time,alpha)
+            self.mn.onoff_multi( test_time,alpha )
         else:
-            error('invalid number of args: iperfmulti 100(cycle_num) 1(repeat_time) 1.5(alpha)\n' )
+            error('invalid number of args: onoffmulti 15(test_time) 1.5(alpha)\n' )
+
+    def do_iperfmulti( self,line ):
+        """Activate several stable TCP traffic using iperf command"""
+        args = line.split()
+        if len(args) == 0:
+            self.mn.iperf_multi()
+        elif len(args) == 1:
+            self.mn.iperf_multi( args[0] )
+        else:
+            error('invalid number of args' )
 
     def do_hostports( self, line ):
         "Configure host ports to a given transmit speed"
         args = line.split()
+        if len(args) == 0:
+            self.mn.host_ports_config()
         if len(args) == 1:
             bdwidth = args[ 0 ] 
-        self.mn.host_ports_config( bdwidth )
+            self.mn.host_ports_config( bdwidth )
+
+    def do_gsochange( self , line ):
+        "Turn off gso function of normal hosts"
+        args = line.split()
+        if len(args) == 0:
+            self.mn.gso_change('off')
+        elif len(args) == 1:
+            self.mn.gso_change(args[0])
+        else:
+            error('invalid number of args' )
 
     def emptyline( self ):
         "Don't repeat last command when you hit return."

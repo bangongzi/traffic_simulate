@@ -113,19 +113,26 @@ from mininet.term import cleanUpScreens, makeTerms
 # Mininet version: should be consistent with README and LICENSE
 VERSION = "2.3.0d1"
 
-###############################changed part############################################
-def on_off( hosts,cycle_num,alpha,marker):
+###############################headerchanged part############################################
+def on_off( hosts,test_time,alpha,lock ):
     """Give the model of a simple 
     ON_OFF module"""
     client,server = hosts
-    for i in range( cycle_num ):
+    print "Thread%s starts at:" %client.name[1:],time.strftime('%Y-%m-%d %H:%M:%S')
+    a = time.time() + test_time
+    b = time.time()
+    while b <  a :
+        b = time.time()
         t1 = random.paretovariate( alpha ) * 0.025
         t2 = random.paretovariate( alpha ) * 0.025
+        if (t1+t2)>(a-b+3):
+            continue
         #on mode
         client.cmd( 'iperf -t' + ' ' + str(t1) + ' -c' + ' ' + server.IP() )
         #off mode
         time.sleep(t2)
-    marker = 0
+    print "Thread%s ends at:" %client.name[1:],time.strftime('%Y-%m-%d %H:%M:%S')
+    lock.release()
     return
 
 class Mininet( object ):
@@ -892,69 +899,86 @@ class Mininet( object ):
         cls.inited = True
 
 ##################################################################################
-##############################changed part starts#################################
+##############################bodychanged part starts#################################
 ##################################################################################
-    def iperf_single( self,hosts=None,period=60,window_size = 45):
-        """Run iperf between two hosts using TCP.
-           hosts: list of hosts; if None, uses opposite hosts
-           returns: results two-element array of server and client speeds"""
-        if not hosts:
-            return
-        else:
-            assert len( hosts ) == 2
+    def netstat_output( self,client):
+        """collect netstat information of each host,output the information
+           to the h*netstat.txt"""
+        filename = client.name[1:]
+        client.cmd('netstat -s '+' >> /home/per/log/'  + 'h'+ filename +'netstat.txt')
+
+    def iperf_single( self,hosts,test_time ):
+        """Run iperf between two hosts using TCP"""
         client, server = hosts
-        output( '*** Iperf: building TCP connection between ' )
-        output( "%s and %s\n" % ( client.name, server.name ) )
-        iperfArgs = 'iperf '
-        client.cmd( 'iperf' + ' -t '+ str(period) + ' -c ' + server.IP() +' &' )
+        filename = client.name[1:]
+        output( "*** Iperf: building TCP connection between %s and %s\n" % ( client.name, server.name ) )
+        client.cmd('iperf -t'+' '+test_time+' -c'+' '+server.IP()+' &')
 
-    """def on_off( self,hosts,cycle_num,alpha,marker):
-        "Give the model of a simple 
-        ON_OFF module"
-        client,server = hosts
-        for i in range( cycle_num ):
-            t1 = random.paretovariate( alpha ) * 0.025
-            t2 = random.paretovariate( alpha ) * 0.025
-            #on mode
-            client.cmd( 'iperf -t' + ' ' + str(t1) + ' -c' + ' ' + server.IP() )
-            #off mode
-            time.sleep(t2)
-        marker = 0
-        return"""
-
-    def iperfMulti(self,cycle_num = 100,repeat_time = 1,alpha = 1.5 ):
-        host_list = []
+    def iperf_multi( self,test_time = '15' ):
+        "Bulding stable TCP connections"
         host_list = [h for h in self.hosts]
         tag_num = len(host_list) - 1
         server= host_list[tag_num]
-        markers = [ m for m in xrange(1,len(host_list)) ]
-        print time.strftime('%Y-%m-%d %H:%M:%S')
-        for i in xrange(0,repeat_time):
-            print "test%d begins:" %(i+1)
-    	    for j in xrange(0, tag_num):
-                client = host_list[j]
-#                thread.start_new_thread(on_off,([client,server],1.5,100,))
-#               thread.start_new_thread( on_off,([client,server],cycle_num,alpha,markers[j],))
-                on_off([client,server],cycle_num,alpha,markers[j])
-        while 1:
-            pass
-        print markers
-        print time.strftime('%Y-%m-%d %H:%M:%S')    
-        print "The test has been done\n"
+        for i in xrange(0,tag_num):
+            client = host_list[i]
+            self.iperf_single( [client,server],test_time)
+        time.sleep( float(test_time)+0.06 )
+        for i in xrange(0,tag_num+1):
+            client = host_list[i]
+            self.netstat_output( client )
+        print "The stable TCP test has been done,statics stored"
+
+    def onoff_multi(self,test_time = 15,alpha = 1.5 ):
+        """Get to activate many hosts.each host give out a on_off traffic
+        The basic way to use mutiple hosts is thread"""
+        host_list = [h for h in self.hosts]
+        locks = []
+        tag_num = len(host_list) - 1
+        server= host_list[tag_num]
+        print "The test starts at:",time.strftime('%Y-%m-%d %H:%M:%S')
+        #Add locks
+    	for i in xrange(0, tag_num):
+            lock = thread.allocate_lock()
+            lock.acquire()
+            locks.append(lock)
+        #Add new threads
+        for i in xrange(0,tag_num):
+            client = host_list[i]
+            thread.start_new_thread( on_off,([client,server],test_time,alpha,locks[i],))
+            time.sleep(0.002)
+        print "********cut line**********"
+        #Wait all the threads end
+        for i in xrange(0,tag_num):
+            while locks[i].locked():
+                pass
+        #Output statics
+        for i in xrange(0,tag_num+1):
+            client = host_list[i]
+            self.netstat_output( client )
+        print "The test ends at:",time.strftime('%Y-%m-%d %H:%M:%S')
+        print "The statistics have been stored"
+
+    def gso_change( self , sign ):
+        "Turn  gso function of normal hosts on or off"
+        host_list = [h for h in self.hosts]
+        tag_num = len(host_list) - 1
+        for i in xrange(0,tag_num):
+            host = host_list[i]
+            host.cmd('ethtool -K'+' '+'h'+host.name[1:]+'-eth0'+' tx'+' '+sign+ ' rx'+' '+ sign)
+        print "The gso function of h1 to h%d has been changed" %tag_num
 
     def host_ports_config( self,bandwidth = '0.1' ):
         """Configure host ports to a given transmit speed"""
-        host_list = []
         host_list = [h for h in self.hosts]
         tag_num = len(host_list) - 1
         for i in xrange(0,tag_num):
             host = host_list[i]
             seq_num = host.name[1:]
-            host.cmd('./host_port_config.sh'+' '+seq_num+' 0'+' 100'+ ' ' +bandwidth )
+            host.cmd('./host_port_config.sh'+' '+seq_num+' 0'+' 5'+ ' ' +bandwidth )
         print "The ports of host1 to host%d has been configured" %tag_num
 	
 ##################################################################################
-##############################changed part ends###################################
+##############################body part ends###################################
 ##################################################################################
 class MininetWithControlNet( Mininet ):
 
