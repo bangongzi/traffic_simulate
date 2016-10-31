@@ -25,10 +25,10 @@ while 1:
     else:
         j += 1
         if j <= 100:
-            str0 = line[19:29]
+            str0 = line[16:29]
             receive_sum[i] += int(str0)
         else: 
-            str0 = line[45:59]
+            str0 = line[41:59]
             transmit_sum[i] += int(str0)
 ReceivePkt = receive_sum[i] - receive_sum[i-1]
 TransminPkt = transmit_sum[i] - transmit_sum[i-1]
