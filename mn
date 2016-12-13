@@ -91,7 +91,7 @@ LINKS = { 'default': Link,
 ##############changed part#########################
 # Names of tests that are Mininet() methods
 TESTNAMES = [ 'cli', 'build', 'pingall', 'pingpair', 'iperf', 'all', 'iperfudp',
-              'none','hostports','onoffmulti','iperfmulti','gsochange','poissonmulti' ]
+              'none','hostports','onoffmulti','iperfmulti','poissonmulti','servermulti','selfdefine' ]
 
 # Map to alternate functions and/or spellings of Mininet() methods
 TESTS = { 'pingall': 'pingAll',
@@ -100,9 +100,10 @@ TESTS = { 'pingall': 'pingAll',
           'iperfUDP': 'iperfUdp',
           'iperfmulti':'iperfmulti',
           'hostports':'hostports',
-          'gsochange':'gsochange',
           'onoffmulti':'onoffmulti',
-          'poissonmulti':'poissonmulti' }
+          'poissonmulti':'poissonmulti',
+          'servermulti':'servermulti',
+          'selfdefine':'selfdefine' }
 
 
 def addDictOption( opts, choicesDict, default, name, **kwargs ):

@@ -34,14 +34,14 @@ def myNetwork():
 
     info( '*** Adding hosts ***\n')
     #Adding normal hosts
-    for i in range(100):
+    for i in range(101):
         host_name = 'h' + str( i + 1 )
         ip_addr = '10.0.0.' + str( i + 1 )
         hs = net.addHost(host_name,cls = Host,ip = ip_addr,defaultRoute=None)
         h.append( hs )
     #Adding the special host "h101" 
-    hs = net.addHost('h101',cls = Host,ip = '10.0.0.101',defaultRoute=None)
-    h.append( hs )
+    #hs = net.addHost('h81',cls = Host,ip = '10.0.0.81',defaultRoute=None)
+    #h.append( hs )
 
 
     info( '*** Adding links ***\n')
