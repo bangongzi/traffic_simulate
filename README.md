@@ -20,3 +20,7 @@ poissonmulti 15(s,test_time) 16(lambda):该命令可以让h1到h100向服务器�
 ##数据提取部分
 负载率信息放在ifconfig.txt文件中，由load_s1.py文件提取
 丢包率信息放在interfaces.txt文件中，由measure_s1.py文件提取
+
+##补充
+工作在100个host规模
+打流模型时长在50ms左右
