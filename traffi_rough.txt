@@ -1,0 +1,3000 @@
+NewStart 1481766449.94864
+enp0s31f6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 1319633  bytes 132686905 (132.6 MB)
+        TX packets 22222  bytes 4794716 (4.7 MB)
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        RX packets 1215914  bytes 87129140 (87.1 MB)
+        TX packets 1215914  bytes 87129140 (87.1 MB)
+s101-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 147084660  bytes 9820635576 (9.8 GB)
+        TX packets 237329602  bytes 658321534634 (658.3 GB)
+s101-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 123492455  bytes 329743534823 (329.7 GB)
+        TX packets 78581527  bytes 5263140411 (5.2 GB)
+s101-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 113837571  bytes 328577727017 (328.5 GB)
+        TX packets 68505423  bytes 4557696340 (4.5 GB)
+s201-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 78581427  bytes 5263133811 (5.2 GB)
+        TX packets 123492276  bytes 329743048777 (329.7 GB)
+s201-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 33439158  bytes 67525523713 (67.5 GB)
+        TX packets 24308517  bytes 1652955311 (1.6 GB)
+s201-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21818441  bytes 65258940534 (65.2 GB)
+        TX packets 13217987  bytes 879383620 (879.3 MB)
+s201-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23855411  bytes 65937930190 (65.9 GB)
+        TX packets 14195994  bytes 943905180 (943.9 MB)
+s201-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21606662  bytes 65378686364 (65.3 GB)
+        TX packets 13149105  bytes 874937550 (874.9 MB)
+s201-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22773705  bytes 65643256811 (65.6 GB)
+        TX packets 13717533  bytes 912655339 (912.6 MB)
+s202-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 68505437  bytes 4557697264 (4.5 GB)
+        TX packets 113837599  bytes 328577818057 (328.5 GB)
+s202-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23291497  bytes 65930313507 (65.9 GB)
+        TX packets 13957078  bytes 928573186 (928.5 MB)
+s202-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21737706  bytes 65462356396 (65.4 GB)
+        TX packets 13208880  bytes 878999033 (878.9 MB)
+s202-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23296437  bytes 65793566898 (65.7 GB)
+        TX packets 13964136  bytes 929039976 (929.0 MB)
+s202-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22549436  bytes 65619869765 (65.6 GB)
+        TX packets 13597078  bytes 904671888 (904.6 MB)
+s202-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22962536  bytes 65771804301 (65.7 GB)
+        TX packets 13785256  bytes 917068188 (917.0 MB)
+s301-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 24308486  bytes 1652953265 (1.6 GB)
+        TX packets 33439098  bytes 67525407577 (67.5 GB)
+s301-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343784  bytes 717599096 (717.5 MB)
+        TX packets 255137  bytes 17314096 (17.3 MB)
+s301-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330855  bytes 668936966 (668.9 MB)
+        TX packets 244213  bytes 16675996 (16.6 MB)
+s301-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339852  bytes 687006408 (687.0 MB)
+        TX packets 249261  bytes 16987884 (16.9 MB)
+s301-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345880  bytes 704832640 (704.8 MB)
+        TX packets 254000  bytes 17231510 (17.2 MB)
+s301-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341866  bytes 693608532 (693.6 MB)
+        TX packets 250042  bytes 16981978 (16.9 MB)
+s301-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333784  bytes 670223496 (670.2 MB)
+        TX packets 243713  bytes 16640540 (16.6 MB)
+s301-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 329835  bytes 663782742 (663.7 MB)
+        TX packets 241956  bytes 16558462 (16.5 MB)
+s301-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339214  bytes 683731380 (683.7 MB)
+        TX packets 249308  bytes 17011086 (17.0 MB)
+s301-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330387  bytes 664973806 (664.9 MB)
+        TX packets 241807  bytes 16520752 (16.5 MB)
+s301-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343411  bytes 692272902 (692.2 MB)
+        TX packets 252596  bytes 17232658 (17.2 MB)
+s301-eth12: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338078  bytes 682751220 (682.7 MB)
+        TX packets 247257  bytes 16861996 (16.8 MB)
+s301-eth13: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342214  bytes 687800476 (687.8 MB)
+        TX packets 250476  bytes 17100486 (17.1 MB)
+s301-eth14: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 350814  bytes 706228052 (706.2 MB)
+        TX packets 255985  bytes 17427128 (17.4 MB)
+s301-eth15: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338216  bytes 682172880 (682.1 MB)
+        TX packets 247664  bytes 16908634 (16.9 MB)
+s301-eth16: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334699  bytes 681127398 (681.1 MB)
+        TX packets 245683  bytes 16702852 (16.7 MB)
+s301-eth17: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 329972  bytes 662032128 (662.0 MB)
+        TX packets 241744  bytes 16575246 (16.5 MB)
+s301-eth18: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330125  bytes 666607610 (666.6 MB)
+        TX packets 242807  bytes 16590108 (16.5 MB)
+s301-eth19: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331773  bytes 665475370 (665.4 MB)
+        TX packets 241624  bytes 16486258 (16.4 MB)
+s301-eth20: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337547  bytes 676332598 (676.3 MB)
+        TX packets 245462  bytes 16747874 (16.7 MB)
+s301-eth21: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338497  bytes 684236778 (684.2 MB)
+        TX packets 247569  bytes 16861680 (16.8 MB)
+s301-eth22: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336816  bytes 677920432 (677.9 MB)
+        TX packets 245869  bytes 16757684 (16.7 MB)
+s301-eth23: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 323557  bytes 651644282 (651.6 MB)
+        TX packets 237010  bytes 16247618 (16.2 MB)
+s301-eth24: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324797  bytes 657070554 (657.0 MB)
+        TX packets 238051  bytes 16238252 (16.2 MB)
+s301-eth25: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 347421  bytes 711565466 (711.5 MB)
+        TX packets 254355  bytes 17159796 (17.1 MB)
+s301-eth26: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341836  bytes 688312640 (688.3 MB)
+        TX packets 249324  bytes 17013590 (17.0 MB)
+s301-eth27: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334826  bytes 683945084 (683.9 MB)
+        TX packets 245631  bytes 16656552 (16.6 MB)
+s301-eth28: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335736  bytes 679093192 (679.0 MB)
+        TX packets 245595  bytes 16714104 (16.7 MB)
+s301-eth29: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342809  bytes 691428074 (691.4 MB)
+        TX packets 250111  bytes 17050708 (17.0 MB)
+s301-eth30: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332565  bytes 670849466 (670.8 MB)
+        TX packets 243443  bytes 16613412 (16.6 MB)
+s301-eth31: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330014  bytes 667815260 (667.8 MB)
+        TX packets 242617  bytes 16562660 (16.5 MB)
+s301-eth32: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330321  bytes 664687602 (664.6 MB)
+        TX packets 242100  bytes 16533126 (16.5 MB)
+s301-eth33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 320118  bytes 643556468 (643.5 MB)
+        TX packets 235171  bytes 16101172 (16.1 MB)
+s301-eth34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342566  bytes 690905996 (690.9 MB)
+        TX packets 250977  bytes 17111184 (17.1 MB)
+s301-eth35: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340475  bytes 680525950 (680.5 MB)
+        TX packets 249024  bytes 17041854 (17.0 MB)
+s301-eth36: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 352705  bytes 712987786 (712.9 MB)
+        TX packets 259324  bytes 17589790 (17.5 MB)
+s301-eth37: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340968  bytes 688960288 (688.9 MB)
+        TX packets 249914  bytes 17031938 (17.0 MB)
+s301-eth38: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 312351  bytes 625279614 (625.2 MB)
+        TX packets 228308  bytes 15620162 (15.6 MB)
+s301-eth39: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331515  bytes 672418214 (672.4 MB)
+        TX packets 243153  bytes 16558752 (16.5 MB)
+s301-eth40: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337705  bytes 684615162 (684.6 MB)
+        TX packets 247454  bytes 16815002 (16.8 MB)
+s301-eth41: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345211  bytes 695825158 (695.8 MB)
+        TX packets 251374  bytes 17113358 (17.1 MB)
+s301-eth42: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336644  bytes 678779144 (678.7 MB)
+        TX packets 245942  bytes 16798250 (16.7 MB)
+s301-eth43: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 316583  bytes 633003302 (633.0 MB)
+        TX packets 231772  bytes 15896574 (15.8 MB)
+s301-eth44: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333365  bytes 669503826 (669.5 MB)
+        TX packets 244592  bytes 16726598 (16.7 MB)
+s301-eth45: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 318666  bytes 641102876 (641.1 MB)
+        TX packets 233805  bytes 16050676 (16.0 MB)
+s301-eth46: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 327604  bytes 659477520 (659.4 MB)
+        TX packets 240128  bytes 16398038 (16.3 MB)
+s301-eth47: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341508  bytes 692144968 (692.1 MB)
+        TX packets 249648  bytes 16941938 (16.9 MB)
+s301-eth48: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339972  bytes 694296976 (694.2 MB)
+        TX packets 249638  bytes 16935958 (16.9 MB)
+s301-eth49: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330137  bytes 661879842 (661.8 MB)
+        TX packets 242313  bytes 16587928 (16.5 MB)
+s301-eth50: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324400  bytes 657189432 (657.1 MB)
+        TX packets 238498  bytes 16242214 (16.2 MB)
+s301-eth51: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 346477  bytes 702657978 (702.6 MB)
+        TX packets 253403  bytes 17215360 (17.2 MB)
+s301-eth52: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336597  bytes 678086634 (678.0 MB)
+        TX packets 245966  bytes 16827418 (16.8 MB)
+s301-eth53: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331045  bytes 670965594 (670.9 MB)
+        TX packets 242956  bytes 16526502 (16.5 MB)
+s301-eth54: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339923  bytes 685645198 (685.6 MB)
+        TX packets 248906  bytes 16956890 (16.9 MB)
+s301-eth55: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 317810  bytes 634969436 (634.9 MB)
+        TX packets 232574  bytes 15949430 (15.9 MB)
+s301-eth56: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339322  bytes 688004220 (688.0 MB)
+        TX packets 248090  bytes 16884750 (16.8 MB)
+s301-eth57: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333896  bytes 674528192 (674.5 MB)
+        TX packets 244202  bytes 16635922 (16.6 MB)
+s301-eth58: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 320439  bytes 648013326 (648.0 MB)
+        TX packets 235587  bytes 16095640 (16.0 MB)
+s301-eth59: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335184  bytes 673520096 (673.5 MB)
+        TX packets 245266  bytes 16733654 (16.7 MB)
+s301-eth60: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334393  bytes 675006530 (675.0 MB)
+        TX packets 244908  bytes 16714110 (16.7 MB)
+s301-eth61: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332878  bytes 669731860 (669.7 MB)
+        TX packets 243066  bytes 16573222 (16.5 MB)
+s301-eth62: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336793  bytes 684520146 (684.5 MB)
+        TX packets 246786  bytes 16721898 (16.7 MB)
+s301-eth63: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343880  bytes 690976160 (690.9 MB)
+        TX packets 249947  bytes 17037196 (17.0 MB)
+s301-eth64: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332019  bytes 667758366 (667.7 MB)
+        TX packets 241815  bytes 16489544 (16.4 MB)
+s301-eth65: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 291658  bytes 583507540 (583.5 MB)
+        TX packets 211937  bytes 14422868 (14.4 MB)
+s301-eth66: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 349991  bytes 708451526 (708.4 MB)
+        TX packets 255939  bytes 17381068 (17.3 MB)
+s301-eth67: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331598  bytes 669753412 (669.7 MB)
+        TX packets 243585  bytes 16633864 (16.6 MB)
+s301-eth68: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 354050  bytes 715228788 (715.2 MB)
+        TX packets 257797  bytes 17534496 (17.5 MB)
+s301-eth69: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 329144  bytes 663410280 (663.4 MB)
+        TX packets 241569  bytes 16529664 (16.5 MB)
+s301-eth70: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 328555  bytes 662907550 (662.9 MB)
+        TX packets 240830  bytes 16475918 (16.4 MB)
+s301-eth71: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337616  bytes 681361880 (681.3 MB)
+        TX packets 246895  bytes 16813992 (16.8 MB)
+s301-eth72: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333836  bytes 672955184 (672.9 MB)
+        TX packets 243860  bytes 16643514 (16.6 MB)
+s301-eth73: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340694  bytes 686808724 (686.8 MB)
+        TX packets 249107  bytes 16989776 (16.9 MB)
+s301-eth74: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324224  bytes 658317832 (658.3 MB)
+        TX packets 237667  bytes 16218520 (16.2 MB)
+s301-eth75: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338877  bytes 683727330 (683.7 MB)
+        TX packets 247958  bytes 16894486 (16.8 MB)
+s301-eth76: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 344751  bytes 693457966 (693.4 MB)
+        TX packets 251537  bytes 17133844 (17.1 MB)
+s301-eth77: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 346245  bytes 699995690 (699.9 MB)
+        TX packets 252576  bytes 17161002 (17.1 MB)
+s301-eth78: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 319795  bytes 652549998 (652.5 MB)
+        TX packets 235552  bytes 16035670 (16.0 MB)
+s301-eth79: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330129  bytes 667396162 (667.3 MB)
+        TX packets 241516  bytes 16478178 (16.4 MB)
+s301-eth80: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 313441  bytes 633193618 (633.1 MB)
+        TX packets 229951  bytes 15754972 (15.7 MB)
+s301-eth81: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 328159  bytes 662892078 (662.8 MB)
+        TX packets 240641  bytes 16403476 (16.4 MB)
+s301-eth82: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345554  bytes 697092812 (697.0 MB)
+        TX packets 252689  bytes 17193436 (17.1 MB)
+s301-eth83: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331343  bytes 664952070 (664.9 MB)
+        TX packets 242262  bytes 16556674 (16.5 MB)
+s301-eth84: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333481  bytes 671739538 (671.7 MB)
+        TX packets 243823  bytes 16654100 (16.6 MB)
+s301-eth85: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 344003  bytes 699280942 (699.2 MB)
+        TX packets 250169  bytes 17011036 (17.0 MB)
+s301-eth86: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330766  bytes 667614396 (667.6 MB)
+        TX packets 241422  bytes 16499882 (16.4 MB)
+s301-eth87: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334141  bytes 671306226 (671.3 MB)
+        TX packets 244209  bytes 16682872 (16.6 MB)
+s301-eth88: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336011  bytes 680572886 (680.5 MB)
+        TX packets 245690  bytes 16696710 (16.6 MB)
+s301-eth89: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337898  bytes 683172108 (683.1 MB)
+        TX packets 246621  bytes 16779932 (16.7 MB)
+s301-eth90: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340646  bytes 686914924 (686.9 MB)
+        TX packets 248711  bytes 16941488 (16.9 MB)
+s301-eth91: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333400  bytes 674371592 (674.3 MB)
+        TX packets 243911  bytes 16581808 (16.5 MB)
+s301-eth92: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342467  bytes 682137494 (682.1 MB)
+        TX packets 249115  bytes 17041032 (17.0 MB)
+s301-eth93: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 347028  bytes 704702696 (704.7 MB)
+        TX packets 254351  bytes 17260796 (17.2 MB)
+s301-eth94: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335246  bytes 674844652 (674.8 MB)
+        TX packets 244766  bytes 16687126 (16.6 MB)
+s301-eth95: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 326970  bytes 658897372 (658.8 MB)
+        TX packets 239114  bytes 16321286 (16.3 MB)
+s301-eth96: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335785  bytes 678475818 (678.4 MB)
+        TX packets 245672  bytes 16685870 (16.6 MB)
+s301-eth97: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 322674  bytes 652324916 (652.3 MB)
+        TX packets 236064  bytes 16136026 (16.1 MB)
+s301-eth98: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336432  bytes 678239568 (678.2 MB)
+        TX packets 245463  bytes 16722716 (16.7 MB)
+s301-eth99: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334492  bytes 680048384 (680.0 MB)
+        TX packets 245476  bytes 16678754 (16.6 MB)
+s301-eth100: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332618  bytes 676609956 (676.6 MB)
+        TX packets 243779  bytes 16578680 (16.5 MB)
+s301-eth101: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 315194  bytes 638077004 (638.0 MB)
+        TX packets 232365  bytes 15917032 (15.9 MB)
+s302-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13217956  bytes 879381574 (879.3 MB)
+        TX packets 21818392  bytes 65258866348 (65.2 GB)
+s302-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2141889  bytes 6054819442 (6.0 GB)
+        TX packets 1297795  bytes 86417540 (86.4 MB)
+s302-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2159963  bytes 6495070094 (6.4 GB)
+        TX packets 1310170  bytes 87196854 (87.1 MB)
+s302-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2154579  bytes 6542108078 (6.5 GB)
+        TX packets 1308196  bytes 87039986 (87.0 MB)
+s302-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2178392  bytes 6533540976 (6.5 GB)
+        TX packets 1323542  bytes 88099446 (88.0 MB)
+s302-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2233093  bytes 6726352162 (6.7 GB)
+        TX packets 1353078  bytes 90025426 (90.0 MB)
+s302-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2201985  bytes 6582944378 (6.5 GB)
+        TX packets 1337891  bytes 89097176 (89.0 MB)
+s302-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2178825  bytes 6637352050 (6.6 GB)
+        TX packets 1321746  bytes 87981058 (87.9 MB)
+s302-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2184546  bytes 6581109588 (6.5 GB)
+        TX packets 1325102  bytes 88193138 (88.1 MB)
+s302-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2186896  bytes 6538823184 (6.5 GB)
+        TX packets 1329210  bytes 88493698 (88.4 MB)
+s302-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2198612  bytes 6567601776 (6.5 GB)
+        TX packets 1326737  bytes 88274220 (88.2 MB)
+s303-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 14195993  bytes 943905114 (943.9 MB)
+        TX packets 23855403  bytes 65937918078 (65.9 GB)
+s303-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2415685  bytes 6523038714 (6.5 GB)
+        TX packets 1442207  bytes 95949524 (95.9 MB)
+s303-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2379620  bytes 6652652136 (6.6 GB)
+        TX packets 1419215  bytes 94407776 (94.4 MB)
+s303-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2437024  bytes 6671526576 (6.6 GB)
+        TX packets 1450687  bytes 96488272 (96.4 MB)
+s303-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2382768  bytes 6619025968 (6.6 GB)
+        TX packets 1414102  bytes 94034414 (94.0 MB)
+s303-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2371290  bytes 6649087724 (6.6 GB)
+        TX packets 1413389  bytes 94024948 (94.0 MB)
+s303-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2397703  bytes 6540204926 (6.5 GB)
+        TX packets 1431755  bytes 95290192 (95.2 MB)
+s303-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2356526  bytes 6598144412 (6.5 GB)
+        TX packets 1404061  bytes 93359332 (93.3 MB)
+s303-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2351450  bytes 6672374684 (6.6 GB)
+        TX packets 1397075  bytes 92862776 (92.8 MB)
+s303-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2374008  bytes 6465850992 (6.4 GB)
+        TX packets 1415533  bytes 94223184 (94.2 MB)
+s303-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2389803  bytes 6546777990 (6.5 GB)
+        TX packets 1423414  bytes 94691290 (94.6 MB)
+s304-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13149102  bytes 874937352 (874.9 MB)
+        TX packets 21606648  bytes 65378611592 (65.3 GB)
+s304-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2144994  bytes 6647817204 (6.6 GB)
+        TX packets 1310893  bytes 87233094 (87.2 MB)
+s304-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2176919  bytes 6700961382 (6.7 GB)
+        TX packets 1331962  bytes 88644296 (88.6 MB)
+s304-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2164889  bytes 6454396306 (6.4 GB)
+        TX packets 1321900  bytes 88036860 (88.0 MB)
+s304-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2261264  bytes 6612349208 (6.6 GB)
+        TX packets 1381707  bytes 92069822 (92.0 MB)
+s304-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2137529  bytes 6603331506 (6.6 GB)
+        TX packets 1300027  bytes 86506282 (86.5 MB)
+s304-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2177878  bytes 6522976396 (6.5 GB)
+        TX packets 1326960  bytes 88347600 (88.3 MB)
+s304-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2130347  bytes 6338116646 (6.3 GB)
+        TX packets 1293925  bytes 86131754 (86.1 MB)
+s304-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2131152  bytes 6367137480 (6.3 GB)
+        TX packets 1288311  bytes 85723178 (85.7 MB)
+s304-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2113838  bytes 6601663636 (6.6 GB)
+        TX packets 1285513  bytes 85517794 (85.5 MB)
+s304-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2168113  bytes 6530392058 (6.5 GB)
+        TX packets 1323211  bytes 88149286 (88.1 MB)
+s305-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13717528  bytes 912655009 (912.6 MB)
+        TX packets 22773660  bytes 65643180441 (65.6 GB)
+s305-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2271151  bytes 6670657526 (6.6 GB)
+        TX packets 1370472  bytes 91167570 (91.1 MB)
+s305-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2246709  bytes 6558198506 (6.5 GB)
+        TX packets 1351462  bytes 89924618 (89.9 MB)
+s305-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2292509  bytes 6491652450 (6.4 GB)
+        TX packets 1383664  bytes 92135350 (92.1 MB)
+s305-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2273876  bytes 6582337272 (6.5 GB)
+        TX packets 1371486  bytes 91312898 (91.3 MB)
+s305-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2249185  bytes 6471398770 (6.4 GB)
+        TX packets 1358624  bytes 90416418 (90.4 MB)
+s305-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2275931  bytes 6606262750 (6.6 GB)
+        TX packets 1373429  bytes 91425196 (91.4 MB)
+s305-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2311884  bytes 6565845544 (6.5 GB)
+        TX packets 1393446  bytes 92746774 (92.7 MB)
+s305-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2305326  bytes 6625396252 (6.6 GB)
+        TX packets 1387580  bytes 92361998 (92.3 MB)
+s305-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2273090  bytes 6445023500 (6.4 GB)
+        TX packets 1376786  bytes 91725982 (91.7 MB)
+s305-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2274037  bytes 6626527858 (6.6 GB)
+        TX packets 1365686  bytes 90836854 (90.8 MB)
+s306-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13957083  bytes 928573516 (928.5 MB)
+        TX packets 23291503  bytes 65930393543 (65.9 GB)
+s306-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2389128  bytes 6655821752 (6.6 GB)
+        TX packets 1433815  bytes 95470294 (95.4 MB)
+s306-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2304677  bytes 6654212738 (6.6 GB)
+        TX packets 1382476  bytes 91962284 (91.9 MB)
+s306-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2347731  bytes 6635858134 (6.6 GB)
+        TX packets 1405308  bytes 93512396 (93.5 MB)
+s306-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2317995  bytes 6492862126 (6.4 GB)
+        TX packets 1392194  bytes 92703816 (92.7 MB)
+s306-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2338332  bytes 6611927168 (6.6 GB)
+        TX packets 1402161  bytes 93310746 (93.3 MB)
+s306-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2301995  bytes 6478292118 (6.4 GB)
+        TX packets 1383195  bytes 92089182 (92.0 MB)
+s306-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2323371  bytes 6484432462 (6.4 GB)
+        TX packets 1397334  bytes 93078828 (93.0 MB)
+s306-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2343773  bytes 6611574226 (6.6 GB)
+        TX packets 1402855  bytes 93340614 (93.3 MB)
+s306-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2307602  bytes 6550531500 (6.5 GB)
+        TX packets 1386123  bytes 92281210 (92.2 MB)
+s306-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2316926  bytes 6755196612 (6.7 GB)
+        TX packets 1386573  bytes 92202606 (92.2 MB)
+s307-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13208866  bytes 878998109 (878.9 MB)
+        TX packets 21737671  bytes 65462279390 (65.4 GB)
+s307-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2194399  bytes 6516345526 (6.5 GB)
+        TX packets 1339697  bytes 89227717 (89.2 MB)
+s307-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2193056  bytes 6679995752 (6.6 GB)
+        TX packets 1334458  bytes 88816219 (88.8 MB)
+s307-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2193198  bytes 6537565628 (6.5 GB)
+        TX packets 1343730  bytes 89497779 (89.4 MB)
+s307-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2153781  bytes 6678788034 (6.6 GB)
+        TX packets 1307238  bytes 86983411 (86.9 MB)
+s307-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2200846  bytes 6629805628 (6.6 GB)
+        TX packets 1338269  bytes 89109737 (89.1 MB)
+s307-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2156710  bytes 6570919292 (6.5 GB)
+        TX packets 1318065  bytes 87768869 (87.7 MB)
+s307-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2063856  bytes 6138167832 (6.1 GB)
+        TX packets 1247260  bytes 82960347 (82.9 MB)
+s307-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2183168  bytes 6485419528 (6.4 GB)
+        TX packets 1328943  bytes 88529861 (88.5 MB)
+s307-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2225416  bytes 6767661592 (6.7 GB)
+        TX packets 1351010  bytes 89930483 (89.9 MB)
+s307-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2173634  bytes 6458283364 (6.4 GB)
+        TX packets 1314963  bytes 87530581 (87.5 MB)
+s308-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13964125  bytes 929039250 (929.0 MB)
+        TX packets 23296418  bytes 65793538132 (65.7 GB)
+s308-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2348741  bytes 6588865810 (6.5 GB)
+        TX packets 1411112  bytes 93910107 (93.9 MB)
+s308-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2366248  bytes 6573808872 (6.5 GB)
+        TX packets 1424515  bytes 94814837 (94.8 MB)
+s308-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2396160  bytes 6647669416 (6.6 GB)
+        TX packets 1437159  bytes 95706689 (95.7 MB)
+s308-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2301629  bytes 6558039362 (6.5 GB)
+        TX packets 1382680  bytes 92005399 (92.0 MB)
+s308-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2281488  bytes 6470925376 (6.4 GB)
+        TX packets 1369446  bytes 91112747 (91.1 MB)
+s308-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2334180  bytes 6612906904 (6.6 GB)
+        TX packets 1402338  bytes 93355031 (93.3 MB)
+s308-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2335047  bytes 6527797790 (6.5 GB)
+        TX packets 1405905  bytes 93625625 (93.6 MB)
+s308-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2272413  bytes 6791342330 (6.7 GB)
+        TX packets 1359178  bytes 90360875 (90.3 MB)
+s308-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2346123  bytes 6564258166 (6.5 GB)
+        TX packets 1403322  bytes 93436351 (93.4 MB)
+s308-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2315120  bytes 6459235240 (6.4 GB)
+        TX packets 1383225  bytes 92071277 (92.0 MB)
+s309-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13597075  bytes 904671690 (904.6 MB)
+        TX packets 22549434  bytes 65619853705 (65.6 GB)
+s309-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2257571  bytes 6664675718 (6.6 GB)
+        TX packets 1360001  bytes 90456582 (90.4 MB)
+s309-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2300089  bytes 6514003354 (6.5 GB)
+        TX packets 1394122  bytes 92850516 (92.8 MB)
+s309-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2289202  bytes 6618740948 (6.6 GB)
+        TX packets 1383335  bytes 92082754 (92.0 MB)
+s309-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2225267  bytes 6417731598 (6.4 GB)
+        TX packets 1338042  bytes 89040652 (89.0 MB)
+s309-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2272720  bytes 6671649656 (6.6 GB)
+        TX packets 1369088  bytes 91089740 (91.0 MB)
+s309-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2260805  bytes 6569374586 (6.5 GB)
+        TX packets 1363262  bytes 90738368 (90.7 MB)
+s309-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2229374  bytes 6498555716 (6.4 GB)
+        TX packets 1346828  bytes 89675504 (89.6 MB)
+s309-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2210703  bytes 6520879774 (6.5 GB)
+        TX packets 1330540  bytes 88553352 (88.5 MB)
+s309-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2236684  bytes 6599243032 (6.5 GB)
+        TX packets 1358707  bytes 90458126 (90.4 MB)
+s309-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2267360  bytes 6545815736 (6.5 GB)
+        TX packets 1367654  bytes 91057112 (91.0 MB)
+s310-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13785249  bytes 917067726 (917.0 MB)
+        TX packets 22962521  bytes 65771735839 (65.7 GB)
+s310-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2334223  bytes 6606253918 (6.6 GB)
+        TX packets 1406126  bytes 93616075 (93.6 MB)
+s310-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2217402  bytes 6660845636 (6.6 GB)
+        TX packets 1323416  bytes 87931747 (87.9 MB)
+s310-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2279851  bytes 6532111958 (6.5 GB)
+        TX packets 1368689  bytes 91066693 (91.0 MB)
+s310-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2247094  bytes 6464639796 (6.4 GB)
+        TX packets 1355168  bytes 90178875 (90.1 MB)
+s310-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2323587  bytes 6529896622 (6.5 GB)
+        TX packets 1402309  bytes 93375097 (93.3 MB)
+s310-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2347927  bytes 6642319694 (6.6 GB)
+        TX packets 1412387  bytes 94023081 (94.0 MB)
+s310-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2298564  bytes 6491011448 (6.4 GB)
+        TX packets 1380834  bytes 91913187 (91.9 MB)
+s310-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2314210  bytes 6679058764 (6.6 GB)
+        TX packets 1389816  bytes 92508663 (92.5 MB)
+s310-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2263196  bytes 6553332720 (6.5 GB)
+        TX packets 1358393  bytes 90389649 (90.3 MB)
+s310-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2336696  bytes 6612753256 (6.6 GB)
+        TX packets 1402455  bytes 93380809 (93.3 MB)
+NewStart 1481766450.05404
+enp0s31f6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 1319635  bytes 132687097 (132.6 MB)
+        TX packets 22222  bytes 4794716 (4.7 MB)
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        RX packets 1215926  bytes 87129860 (87.1 MB)
+        TX packets 1215926  bytes 87129860 (87.1 MB)
+s101-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 147099528  bytes 9821622672 (9.8 GB)
+        TX packets 237355074  bytes 658380387386 (658.3 GB)
+s101-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 123505477  bytes 329773036155 (329.7 GB)
+        TX packets 78589405  bytes 5263664583 (5.2 GB)
+s101-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 113849988  bytes 328607009363 (328.6 GB)
+        TX packets 68512379  bytes 4558157020 (4.5 GB)
+s201-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 78589227  bytes 5263652835 (5.2 GB)
+        TX packets 123505150  bytes 329772350629 (329.7 GB)
+s201-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 33442200  bytes 67531439413 (67.5 GB)
+        TX packets 24310644  bytes 1653098145 (1.6 GB)
+s201-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21821205  bytes 65264846294 (65.2 GB)
+        TX packets 13219521  bytes 879485928 (879.4 MB)
+s201-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23858008  bytes 65943794008 (65.9 GB)
+        TX packets 14197471  bytes 944002782 (944.0 MB)
+s201-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21609696  bytes 65384610792 (65.3 GB)
+        TX packets 13150820  bytes 875051100 (875.0 MB)
+s201-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22775326  bytes 65649113637 (65.6 GB)
+        TX packets 13718539  bytes 912721963 (912.7 MB)
+s202-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 68512402  bytes 4558158538 (4.5 GB)
+        TX packets 113850028  bytes 328607122051 (328.6 GB)
+s202-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23293640  bytes 65936154889 (65.9 GB)
+        TX packets 13958343  bytes 928656904 (928.6 MB)
+s202-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21739992  bytes 65468234216 (65.4 GB)
+        TX packets 13210212  bytes 879087217 (879.0 MB)
+s202-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23299605  bytes 65799468170 (65.7 GB)
+        TX packets 13965841  bytes 929152842 (929.1 MB)
+s202-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22552527  bytes 65625800443 (65.6 GB)
+        TX packets 13598731  bytes 904781530 (904.7 MB)
+s202-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22964306  bytes 65777624121 (65.7 GB)
+        TX packets 13786289  bytes 917136570 (917.1 MB)
+s301-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 24310597  bytes 1653095043 (1.6 GB)
+        TX packets 33442123  bytes 67531299211 (67.5 GB)
+s301-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343786  bytes 717603572 (717.6 MB)
+        TX packets 255158  bytes 17315482 (17.3 MB)
+s301-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330855  bytes 668936966 (668.9 MB)
+        TX packets 244213  bytes 16675996 (16.6 MB)
+s301-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339859  bytes 687025694 (687.0 MB)
+        TX packets 249283  bytes 16989336 (16.9 MB)
+s301-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345920  bytes 704898016 (704.8 MB)
+        TX packets 254019  bytes 17232764 (17.2 MB)
+s301-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341866  bytes 693608532 (693.6 MB)
+        TX packets 250042  bytes 16981978 (16.9 MB)
+s301-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333784  bytes 670223496 (670.2 MB)
+        TX packets 243713  bytes 16640540 (16.6 MB)
+s301-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 329837  bytes 663783530 (663.7 MB)
+        TX packets 241957  bytes 16558536 (16.5 MB)
+s301-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339214  bytes 683731380 (683.7 MB)
+        TX packets 249308  bytes 17011086 (17.0 MB)
+s301-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330456  bytes 665107384 (665.1 MB)
+        TX packets 241853  bytes 16523788 (16.5 MB)
+s301-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343485  bytes 692415850 (692.4 MB)
+        TX packets 252643  bytes 17235760 (17.2 MB)
+s301-eth12: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338101  bytes 682817898 (682.8 MB)
+        TX packets 247296  bytes 16864618 (16.8 MB)
+s301-eth13: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342237  bytes 687867154 (687.8 MB)
+        TX packets 250500  bytes 17102070 (17.1 MB)
+s301-eth14: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 350836  bytes 706264416 (706.2 MB)
+        TX packets 255997  bytes 17427920 (17.4 MB)
+s301-eth15: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338218  bytes 682178804 (682.1 MB)
+        TX packets 247674  bytes 16909294 (16.9 MB)
+s301-eth16: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334722  bytes 681192628 (681.1 MB)
+        TX packets 245710  bytes 16704634 (16.7 MB)
+s301-eth17: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330042  bytes 662138324 (662.1 MB)
+        TX packets 241767  bytes 16576764 (16.5 MB)
+s301-eth18: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330192  bytes 666739888 (666.7 MB)
+        TX packets 242857  bytes 16593408 (16.5 MB)
+s301-eth19: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331815  bytes 665541054 (665.5 MB)
+        TX packets 241646  bytes 16487710 (16.4 MB)
+s301-eth20: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337637  bytes 676498706 (676.4 MB)
+        TX packets 245518  bytes 16751570 (16.7 MB)
+s301-eth21: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338593  bytes 684381130 (684.3 MB)
+        TX packets 247593  bytes 16863276 (16.8 MB)
+s301-eth22: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336838  bytes 677985596 (677.9 MB)
+        TX packets 245903  bytes 16760000 (16.7 MB)
+s301-eth23: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 323580  bytes 651710960 (651.7 MB)
+        TX packets 237035  bytes 16249268 (16.2 MB)
+s301-eth24: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324803  bytes 657086878 (657.0 MB)
+        TX packets 238059  bytes 16238780 (16.2 MB)
+s301-eth25: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 347461  bytes 711624626 (711.6 MB)
+        TX packets 254357  bytes 17159928 (17.1 MB)
+s301-eth26: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341853  bytes 688340658 (688.3 MB)
+        TX packets 249333  bytes 17014184 (17.0 MB)
+s301-eth27: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334844  bytes 683971472 (683.9 MB)
+        TX packets 245637  bytes 16656948 (16.6 MB)
+s301-eth28: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335739  bytes 679100630 (679.1 MB)
+        TX packets 245615  bytes 16715424 (16.7 MB)
+s301-eth29: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342832  bytes 691494752 (691.4 MB)
+        TX packets 250138  bytes 17052490 (17.0 MB)
+s301-eth30: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332565  bytes 670849466 (670.8 MB)
+        TX packets 243443  bytes 16613412 (16.6 MB)
+s301-eth31: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330038  bytes 667882004 (667.8 MB)
+        TX packets 242648  bytes 16564706 (16.5 MB)
+s301-eth32: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330321  bytes 664687602 (664.6 MB)
+        TX packets 242100  bytes 16533126 (16.5 MB)
+s301-eth33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 320141  bytes 643623146 (643.6 MB)
+        TX packets 235225  bytes 16104748 (16.1 MB)
+s301-eth34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342569  bytes 690914882 (690.9 MB)
+        TX packets 250983  bytes 17111580 (17.1 MB)
+s301-eth35: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340481  bytes 680540826 (680.5 MB)
+        TX packets 249044  bytes 17043198 (17.0 MB)
+s301-eth36: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 352755  bytes 713062118 (713.0 MB)
+        TX packets 259346  bytes 17591242 (17.5 MB)
+s301-eth37: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341001  bytes 689023618 (689.0 MB)
+        TX packets 249928  bytes 17032862 (17.0 MB)
+s301-eth38: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 312400  bytes 625353280 (625.3 MB)
+        TX packets 228330  bytes 15621614 (15.6 MB)
+s301-eth39: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331532  bytes 672448432 (672.4 MB)
+        TX packets 243169  bytes 16559808 (16.5 MB)
+s301-eth40: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337728  bytes 684681840 (684.6 MB)
+        TX packets 247477  bytes 16816520 (16.8 MB)
+s301-eth41: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345217  bytes 695841482 (695.8 MB)
+        TX packets 251385  bytes 17114084 (17.1 MB)
+s301-eth42: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336646  bytes 678779932 (678.7 MB)
+        TX packets 245943  bytes 16798324 (16.7 MB)
+s301-eth43: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 316587  bytes 633015150 (633.0 MB)
+        TX packets 231790  bytes 15897762 (15.8 MB)
+s301-eth44: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333447  bytes 669659166 (669.6 MB)
+        TX packets 244652  bytes 16730582 (16.7 MB)
+s301-eth45: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 318726  bytes 641192628 (641.1 MB)
+        TX packets 233828  bytes 16052194 (16.0 MB)
+s301-eth46: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 327608  bytes 659477784 (659.4 MB)
+        TX packets 240137  bytes 16399288 (16.3 MB)
+s301-eth47: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341531  bytes 692211646 (692.2 MB)
+        TX packets 249693  bytes 16944932 (16.9 MB)
+s301-eth48: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339976  bytes 694308824 (694.3 MB)
+        TX packets 249656  bytes 16937146 (16.9 MB)
+s301-eth49: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330201  bytes 662007970 (662.0 MB)
+        TX packets 242337  bytes 16589512 (16.5 MB)
+s301-eth50: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324444  bytes 657255424 (657.2 MB)
+        TX packets 238520  bytes 16243666 (16.2 MB)
+s301-eth51: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 346483  bytes 702672854 (702.6 MB)
+        TX packets 253413  bytes 17216020 (17.2 MB)
+s301-eth52: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336653  bytes 678170578 (678.1 MB)
+        TX packets 245988  bytes 16828870 (16.8 MB)
+s301-eth53: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331048  bytes 670974480 (670.9 MB)
+        TX packets 242975  bytes 16527756 (16.5 MB)
+s301-eth54: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339933  bytes 685673370 (685.6 MB)
+        TX packets 248914  bytes 16957418 (16.9 MB)
+s301-eth55: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 317813  bytes 634970298 (634.9 MB)
+        TX packets 232577  bytes 15950940 (15.9 MB)
+s301-eth56: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339341  bytes 688042546 (688.0 MB)
+        TX packets 248106  bytes 16885806 (16.8 MB)
+s301-eth57: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333896  bytes 674528192 (674.5 MB)
+        TX packets 244202  bytes 16635922 (16.6 MB)
+s301-eth58: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 320448  bytes 648038536 (648.0 MB)
+        TX packets 235599  bytes 16096432 (16.0 MB)
+s301-eth59: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335236  bytes 673597456 (673.5 MB)
+        TX packets 245289  bytes 16735172 (16.7 MB)
+s301-eth60: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334394  bytes 675006604 (675.0 MB)
+        TX packets 244908  bytes 16714110 (16.7 MB)
+s301-eth61: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332990  bytes 669932188 (669.9 MB)
+        TX packets 243122  bytes 16576918 (16.5 MB)
+s301-eth62: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336803  bytes 684549766 (684.5 MB)
+        TX packets 246795  bytes 16722492 (16.7 MB)
+s301-eth63: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343880  bytes 690976160 (690.9 MB)
+        TX packets 249947  bytes 17037196 (17.0 MB)
+s301-eth64: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332019  bytes 667758366 (667.7 MB)
+        TX packets 241815  bytes 16489544 (16.4 MB)
+s301-eth65: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 291744  bytes 583666816 (583.6 MB)
+        TX packets 212006  bytes 14427446 (14.4 MB)
+s301-eth66: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 349991  bytes 708451526 (708.4 MB)
+        TX packets 255939  bytes 17381068 (17.3 MB)
+s301-eth67: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331682  bytes 669910508 (669.9 MB)
+        TX packets 243645  bytes 16637848 (16.6 MB)
+s301-eth68: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 354056  bytes 715243664 (715.2 MB)
+        TX packets 257807  bytes 17535156 (17.5 MB)
+s301-eth69: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 329222  bytes 663527844 (663.5 MB)
+        TX packets 241591  bytes 16531116 (16.5 MB)
+s301-eth70: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 328674  bytes 663086684 (663.0 MB)
+        TX packets 240853  bytes 16477436 (16.4 MB)
+s301-eth71: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337711  bytes 681505142 (681.5 MB)
+        TX packets 246919  bytes 16815600 (16.8 MB)
+s301-eth72: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333911  bytes 673098374 (673.0 MB)
+        TX packets 243908  bytes 16646694 (16.6 MB)
+s301-eth73: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340754  bytes 686925676 (686.9 MB)
+        TX packets 249130  bytes 16991294 (16.9 MB)
+s301-eth74: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324247  bytes 658383062 (658.3 MB)
+        TX packets 237703  bytes 16220896 (16.2 MB)
+s301-eth75: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338954  bytes 683874572 (683.8 MB)
+        TX packets 248012  bytes 16898062 (16.8 MB)
+s301-eth76: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 344772  bytes 693520168 (693.5 MB)
+        TX packets 251558  bytes 17135230 (17.1 MB)
+s301-eth77: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 346264  bytes 700049072 (700.0 MB)
+        TX packets 252595  bytes 17162256 (17.1 MB)
+s301-eth78: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 319818  bytes 652613780 (652.6 MB)
+        TX packets 235575  bytes 16037188 (16.0 MB)
+s301-eth79: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330169  bytes 667461786 (667.4 MB)
+        TX packets 241538  bytes 16479630 (16.4 MB)
+s301-eth80: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 313489  bytes 633265170 (633.2 MB)
+        TX packets 229974  bytes 15756502 (15.7 MB)
+s301-eth81: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 328233  bytes 663033578 (663.0 MB)
+        TX packets 240676  bytes 16405786 (16.4 MB)
+s301-eth82: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345554  bytes 697092812 (697.0 MB)
+        TX packets 252689  bytes 17193436 (17.1 MB)
+s301-eth83: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331367  bytes 665018814 (665.0 MB)
+        TX packets 242298  bytes 16559050 (16.5 MB)
+s301-eth84: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333537  bytes 671849834 (671.8 MB)
+        TX packets 243846  bytes 16655618 (16.6 MB)
+s301-eth85: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 344060  bytes 699366400 (699.3 MB)
+        TX packets 250192  bytes 17012554 (17.0 MB)
+s301-eth86: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330832  bytes 667713760 (667.7 MB)
+        TX packets 241445  bytes 16501400 (16.5 MB)
+s301-eth87: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334151  bytes 671322390 (671.3 MB)
+        TX packets 244225  bytes 16684048 (16.6 MB)
+s301-eth88: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336034  bytes 680639564 (680.6 MB)
+        TX packets 245720  bytes 16698690 (16.6 MB)
+s301-eth89: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337935  bytes 683227398 (683.2 MB)
+        TX packets 246626  bytes 16780262 (16.7 MB)
+s301-eth90: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340664  bytes 686966792 (686.9 MB)
+        TX packets 248729  bytes 16942676 (16.9 MB)
+s301-eth91: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333410  bytes 674396868 (674.3 MB)
+        TX packets 243919  bytes 16582336 (16.5 MB)
+s301-eth92: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342479  bytes 682173038 (682.1 MB)
+        TX packets 249134  bytes 17042286 (17.0 MB)
+s301-eth93: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 347051  bytes 704769374 (704.7 MB)
+        TX packets 254392  bytes 17263502 (17.2 MB)
+s301-eth94: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335269  bytes 674911330 (674.9 MB)
+        TX packets 244827  bytes 16691176 (16.6 MB)
+s301-eth95: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 326992  bytes 658961088 (658.9 MB)
+        TX packets 239144  bytes 16323266 (16.3 MB)
+s301-eth96: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335805  bytes 678532162 (678.5 MB)
+        TX packets 245692  bytes 16687190 (16.6 MB)
+s301-eth97: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 322694  bytes 652355532 (652.3 MB)
+        TX packets 236068  bytes 16136290 (16.1 MB)
+s301-eth98: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336464  bytes 678301808 (678.3 MB)
+        TX packets 245476  bytes 16723574 (16.7 MB)
+s301-eth99: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334553  bytes 680166850 (680.1 MB)
+        TX packets 245498  bytes 16680206 (16.6 MB)
+s301-eth100: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332632  bytes 676630536 (676.6 MB)
+        TX packets 243782  bytes 16578878 (16.5 MB)
+s301-eth101: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 315233  bytes 638143834 (638.1 MB)
+        TX packets 232386  bytes 15918418 (15.9 MB)
+s302-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13219513  bytes 879485400 (879.4 MB)
+        TX packets 21821136  bytes 65264741828 (65.2 GB)
+s302-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2142388  bytes 6055762168 (6.0 GB)
+        TX packets 1298028  bytes 86433002 (86.4 MB)
+s302-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2160180  bytes 6495702104 (6.4 GB)
+        TX packets 1310355  bytes 87209148 (87.2 MB)
+s302-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2154583  bytes 6542108342 (6.5 GB)
+        TX packets 1308222  bytes 87042358 (87.0 MB)
+s302-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2178620  bytes 6534168696 (6.5 GB)
+        TX packets 1323723  bytes 88111404 (88.1 MB)
+s302-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2233622  bytes 6727321812 (6.7 GB)
+        TX packets 1353318  bytes 90041326 (90.0 MB)
+s302-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2202508  bytes 6583899072 (6.5 GB)
+        TX packets 1338095  bytes 89110652 (89.1 MB)
+s302-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2178911  bytes 6637541022 (6.6 GB)
+        TX packets 1321810  bytes 87985306 (87.9 MB)
+s302-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2184769  bytes 6581750682 (6.5 GB)
+        TX packets 1325268  bytes 88204094 (88.2 MB)
+s302-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2187414  bytes 6539786340 (6.5 GB)
+        TX packets 1329440  bytes 88509010 (88.5 MB)
+s302-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2198612  bytes 6567601776 (6.5 GB)
+        TX packets 1326737  bytes 88274220 (88.2 MB)
+s303-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 14197468  bytes 944002584 (944.0 MB)
+        TX packets 23857997  bytes 65943777354 (65.9 GB)
+s303-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2415987  bytes 6523656486 (6.5 GB)
+        TX packets 1442364  bytes 95959898 (95.9 MB)
+s303-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2379899  bytes 6653302678 (6.6 GB)
+        TX packets 1419381  bytes 94418780 (94.4 MB)
+s303-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2437220  bytes 6671921960 (6.6 GB)
+        TX packets 1450799  bytes 96495664 (96.4 MB)
+s303-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2383029  bytes 6619669706 (6.6 GB)
+        TX packets 1414222  bytes 94042334 (94.0 MB)
+s303-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2371489  bytes 6649510250 (6.6 GB)
+        TX packets 1413513  bytes 94033168 (94.0 MB)
+s303-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2398041  bytes 6540963154 (6.5 GB)
+        TX packets 1431914  bytes 95300698 (95.3 MB)
+s303-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2356867  bytes 6598834958 (6.5 GB)
+        TX packets 1404251  bytes 93371872 (93.3 MB)
+s303-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2351731  bytes 6673025534 (6.6 GB)
+        TX packets 1397235  bytes 92873348 (92.8 MB)
+s303-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2374278  bytes 6466502564 (6.4 GB)
+        TX packets 1415682  bytes 94233018 (94.2 MB)
+s303-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2390081  bytes 6547429066 (6.5 GB)
+        TX packets 1423566  bytes 94701322 (94.7 MB)
+s304-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13150789  bytes 875049054 (875.0 MB)
+        TX packets 21609641  bytes 65384492442 (65.3 GB)
+s304-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2145321  bytes 6648512578 (6.6 GB)
+        TX packets 1311068  bytes 87244644 (87.2 MB)
+s304-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2177139  bytes 6701402622 (6.7 GB)
+        TX packets 1332094  bytes 88653032 (88.6 MB)
+s304-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2165231  bytes 6455063222 (6.4 GB)
+        TX packets 1322081  bytes 88048854 (88.0 MB)
+s304-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2261476  bytes 6612831216 (6.6 GB)
+        TX packets 1381864  bytes 92080184 (92.0 MB)
+s304-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2137844  bytes 6604034456 (6.6 GB)
+        TX packets 1300209  bytes 86518330 (86.5 MB)
+s304-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2178172  bytes 6523624216 (6.5 GB)
+        TX packets 1327152  bytes 88360332 (88.3 MB)
+s304-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2130575  bytes 6338661894 (6.3 GB)
+        TX packets 1294112  bytes 86144204 (86.1 MB)
+s304-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2131497  bytes 6367859010 (6.3 GB)
+        TX packets 1288502  bytes 85735796 (85.7 MB)
+s304-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2114196  bytes 6602364800 (6.6 GB)
+        TX packets 1285701  bytes 85530274 (85.5 MB)
+s304-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2168299  bytes 6530741854 (6.5 GB)
+        TX packets 1323321  bytes 88156546 (88.1 MB)
+s305-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13718497  bytes 912719191 (912.7 MB)
+        TX packets 22775274  bytes 65648982661 (65.6 GB)
+s305-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2271460  bytes 6671501440 (6.6 GB)
+        TX packets 1370675  bytes 91181004 (91.1 MB)
+s305-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2246709  bytes 6558198506 (6.5 GB)
+        TX packets 1351462  bytes 89924618 (89.9 MB)
+s305-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2292671  bytes 6492309078 (6.4 GB)
+        TX packets 1383756  bytes 92141434 (92.1 MB)
+s305-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2274073  bytes 6582986194 (6.5 GB)
+        TX packets 1371577  bytes 91318904 (91.3 MB)
+s305-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2249366  bytes 6472041716 (6.4 GB)
+        TX packets 1358732  bytes 90423570 (90.4 MB)
+s305-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2276104  bytes 6606920776 (6.6 GB)
+        TX packets 1373516  bytes 91430962 (91.4 MB)
+s305-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2312046  bytes 6566508980 (6.5 GB)
+        TX packets 1393533  bytes 92752588 (92.7 MB)
+s305-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2305515  bytes 6626043166 (6.6 GB)
+        TX packets 1387672  bytes 92368070 (92.3 MB)
+s305-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2273297  bytes 6445684714 (6.4 GB)
+        TX packets 1376904  bytes 91733818 (91.7 MB)
+s305-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2274219  bytes 6627183838 (6.6 GB)
+        TX packets 1365783  bytes 90843268 (90.8 MB)
+s306-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13958356  bytes 928657762 (928.6 MB)
+        TX packets 23293653  bytes 65936264347 (65.9 GB)
+s306-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2389358  bytes 6656507228 (6.6 GB)
+        TX packets 1433942  bytes 95478676 (95.4 MB)
+s306-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2304908  bytes 6654807784 (6.6 GB)
+        TX packets 1382606  bytes 91970864 (91.9 MB)
+s306-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2347731  bytes 6635858134 (6.6 GB)
+        TX packets 1405308  bytes 93512396 (93.5 MB)
+s306-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2318196  bytes 6493506184 (6.4 GB)
+        TX packets 1392311  bytes 92711538 (92.7 MB)
+s306-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2338578  bytes 6612593892 (6.6 GB)
+        TX packets 1402315  bytes 93320970 (93.3 MB)
+s306-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2302223  bytes 6478871638 (6.4 GB)
+        TX packets 1383348  bytes 92099364 (92.0 MB)
+s306-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2323767  bytes 6485307078 (6.4 GB)
+        TX packets 1397549  bytes 93093018 (93.0 MB)
+s306-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2343997  bytes 6612247690 (6.6 GB)
+        TX packets 1402983  bytes 93349062 (93.3 MB)
+s306-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2307828  bytes 6551216632 (6.5 GB)
+        TX packets 1386228  bytes 92288200 (92.2 MB)
+s306-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2317162  bytes 6755874044 (6.7 GB)
+        TX packets 1386713  bytes 92211870 (92.2 MB)
+s307-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13210201  bytes 879086491 (879.0 MB)
+        TX packets 21739980  bytes 65468126272 (65.4 GB)
+s307-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2194608  bytes 6516961728 (6.5 GB)
+        TX packets 1339839  bytes 89237089 (89.2 MB)
+s307-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2193323  bytes 6680635510 (6.6 GB)
+        TX packets 1334619  bytes 88826889 (88.8 MB)
+s307-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2193392  bytes 6538200192 (6.5 GB)
+        TX packets 1343864  bytes 89506623 (89.5 MB)
+s307-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2153977  bytes 6679428346 (6.6 GB)
+        TX packets 1307384  bytes 86993083 (86.9 MB)
+s307-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2201039  bytes 6630434654 (6.6 GB)
+        TX packets 1338420  bytes 89119799 (89.1 MB)
+s307-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2156910  bytes 6571543764 (6.5 GB)
+        TX packets 1318222  bytes 87779327 (87.7 MB)
+s307-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2064113  bytes 6138888282 (6.1 GB)
+        TX packets 1247402  bytes 82969719 (82.9 MB)
+s307-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2183371  bytes 6486057902 (6.4 GB)
+        TX packets 1329083  bytes 88539101 (88.5 MB)
+s307-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2225417  bytes 6767661666 (6.7 GB)
+        TX packets 1351010  bytes 89930483 (89.9 MB)
+s307-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2173884  bytes 6458949904 (6.4 GB)
+        TX packets 1315129  bytes 87541537 (87.5 MB)
+s308-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13965832  bytes 929152248 (929.1 MB)
+        TX packets 23299588  bytes 65799442432 (65.7 GB)
+s308-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2349137  bytes 6589543098 (6.5 GB)
+        TX packets 1411297  bytes 93922401 (93.9 MB)
+s308-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2366520  bytes 6574384952 (6.5 GB)
+        TX packets 1424706  bytes 94827455 (94.8 MB)
+s308-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2396510  bytes 6648391652 (6.6 GB)
+        TX packets 1437291  bytes 95715401 (95.7 MB)
+s308-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2301891  bytes 6558592254 (6.5 GB)
+        TX packets 1382880  bytes 92018671 (92.0 MB)
+s308-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2282004  bytes 6471704904 (6.4 GB)
+        TX packets 1369710  bytes 91130183 (91.1 MB)
+s308-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2334529  bytes 6613547186 (6.6 GB)
+        TX packets 1402475  bytes 93364073 (93.3 MB)
+s308-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2335103  bytes 6527909878 (6.5 GB)
+        TX packets 1405950  bytes 93628619 (93.6 MB)
+s308-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2272783  bytes 6792012070 (6.7 GB)
+        TX packets 1359325  bytes 90370589 (90.3 MB)
+s308-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2346365  bytes 6564779618 (6.5 GB)
+        TX packets 1403509  bytes 93448705 (93.4 MB)
+s308-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2315386  bytes 6459795988 (6.4 GB)
+        TX packets 1383436  bytes 92085311 (92.0 MB)
+s309-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13598722  bytes 904780936 (904.7 MB)
+        TX packets 22552510  bytes 65625774705 (65.6 GB)
+s309-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2257571  bytes 6664675718 (6.6 GB)
+        TX packets 1360001  bytes 90456582 (90.4 MB)
+s309-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2300610  bytes 6514849124 (6.5 GB)
+        TX packets 1394337  bytes 92864730 (92.8 MB)
+s309-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2289450  bytes 6619346556 (6.6 GB)
+        TX packets 1383550  bytes 92097100 (92.0 MB)
+s309-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2225505  bytes 6418252186 (6.4 GB)
+        TX packets 1338186  bytes 89050244 (89.0 MB)
+s309-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2273242  bytes 6672496516 (6.6 GB)
+        TX packets 1369318  bytes 91105076 (91.1 MB)
+s309-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2261177  bytes 6570176170 (6.5 GB)
+        TX packets 1363410  bytes 90748136 (90.7 MB)
+s309-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2229741  bytes 6499272034 (6.4 GB)
+        TX packets 1346996  bytes 89686652 (89.6 MB)
+s309-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2210933  bytes 6521382426 (6.5 GB)
+        TX packets 1330709  bytes 88564506 (88.5 MB)
+s309-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2237205  bytes 6600089578 (6.6 GB)
+        TX packets 1358885  bytes 90469934 (90.4 MB)
+s309-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2267730  bytes 6546533228 (6.5 GB)
+        TX packets 1367839  bytes 91069322 (91.0 MB)
+s310-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13786284  bytes 917136240 (917.1 MB)
+        TX packets 22964297  bytes 65777551823 (65.7 GB)
+s310-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2334223  bytes 6606253918 (6.6 GB)
+        TX packets 1406126  bytes 93616075 (93.6 MB)
+s310-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2217402  bytes 6660845636 (6.6 GB)
+        TX packets 1323416  bytes 87931747 (87.9 MB)
+s310-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2280277  bytes 6533198834 (6.5 GB)
+        TX packets 1368958  bytes 91084543 (91.0 MB)
+s310-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2247249  bytes 6465288154 (6.4 GB)
+        TX packets 1355265  bytes 90185277 (90.1 MB)
+s310-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2323737  bytes 6530538890 (6.5 GB)
+        TX packets 1402401  bytes 93381181 (93.3 MB)
+s310-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2348083  bytes 6642968398 (6.6 GB)
+        TX packets 1412474  bytes 94028835 (94.0 MB)
+s310-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2298799  bytes 6491768430 (6.4 GB)
+        TX packets 1380994  bytes 91923747 (91.9 MB)
+s310-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2314387  bytes 6679732390 (6.6 GB)
+        TX packets 1389908  bytes 92514735 (92.5 MB)
+s310-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2263376  bytes 6553988928 (6.5 GB)
+        TX packets 1358500  bytes 90396795 (90.3 MB)
+s310-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2336910  bytes 6613357284 (6.6 GB)
+        TX packets 1402598  bytes 93390247 (93.3 MB)
+NewStart 1481766450.17580
+enp0s31f6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 1319644  bytes 132687961 (132.6 MB)
+        TX packets 22222  bytes 4794716 (4.7 MB)
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        RX packets 1215930  bytes 87130100 (87.1 MB)
+        TX packets 1215930  bytes 87130100 (87.1 MB)
+s101-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 147117186  bytes 9822797972 (9.8 GB)
+        TX packets 237385219  bytes 658448034284 (658.4 GB)
+s101-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 123521118  bytes 329806908613 (329.8 GB)
+        TX packets 78598757  bytes 5264289079 (5.2 GB)
+s101-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 113864414  bytes 328640714583 (328.6 GB)
+        TX packets 68520662  bytes 4558706306 (4.5 GB)
+s201-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 78598574  bytes 5264276345 (5.2 GB)
+        TX packets 123520780  bytes 329806109873 (329.8 GB)
+s201-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 33445694  bytes 67538234465 (67.5 GB)
+        TX packets 24313048  bytes 1653262533 (1.6 GB)
+s201-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21824773  bytes 65271651030 (65.2 GB)
+        TX packets 13221507  bytes 879617560 (879.6 MB)
+s201-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23861185  bytes 65950551082 (65.9 GB)
+        TX packets 14199294  bytes 944123588 (944.1 MB)
+s201-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21612864  bytes 65391381408 (65.3 GB)
+        TX packets 13152621  bytes 875170258 (875.1 MB)
+s201-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22777446  bytes 65655822397 (65.6 GB)
+        TX packets 13719857  bytes 912809155 (912.8 MB)
+s202-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 68520687  bytes 4558707956 (4.5 GB)
+        TX packets 113864473  bytes 328640848797 (328.6 GB)
+s202-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23296338  bytes 65942886949 (65.9 GB)
+        TX packets 13959930  bytes 928761802 (928.7 MB)
+s202-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21742474  bytes 65474964820 (65.4 GB)
+        TX packets 13211723  bytes 879188535 (879.1 MB)
+s202-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23303238  bytes 65806250516 (65.8 GB)
+        TX packets 13967822  bytes 929283768 (929.2 MB)
+s202-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22556179  bytes 65632614067 (65.6 GB)
+        TX packets 13600740  bytes 904914432 (904.9 MB)
+s202-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22966288  bytes 65784300453 (65.7 GB)
+        TX packets 13787486  bytes 917215944 (917.2 MB)
+s301-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 24312982  bytes 1653257521 (1.6 GB)
+        TX packets 33445603  bytes 67538062459 (67.5 GB)
+s301-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343852  bytes 717732856 (717.7 MB)
+        TX packets 255182  bytes 17317066 (17.3 MB)
+s301-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330855  bytes 668936966 (668.9 MB)
+        TX packets 244213  bytes 16675996 (16.6 MB)
+s301-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339920  bytes 687147904 (687.1 MB)
+        TX packets 249319  bytes 16991760 (16.9 MB)
+s301-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345942  bytes 704961732 (704.9 MB)
+        TX packets 254049  bytes 17234744 (17.2 MB)
+s301-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341866  bytes 693608532 (693.6 MB)
+        TX packets 250042  bytes 16981978 (16.9 MB)
+s301-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333784  bytes 670223496 (670.2 MB)
+        TX packets 243713  bytes 16640540 (16.6 MB)
+s301-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 329840  bytes 663784392 (663.7 MB)
+        TX packets 241960  bytes 16560046 (16.5 MB)
+s301-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339214  bytes 683731380 (683.7 MB)
+        TX packets 249308  bytes 17011086 (17.0 MB)
+s301-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330502  bytes 665177180 (665.1 MB)
+        TX packets 241876  bytes 16525306 (16.5 MB)
+s301-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343488  bytes 692416048 (692.4 MB)
+        TX packets 252668  bytes 17238078 (17.2 MB)
+s301-eth12: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338158  bytes 682904804 (682.9 MB)
+        TX packets 247318  bytes 16866094 (16.8 MB)
+s301-eth13: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342308  bytes 688005384 (688.0 MB)
+        TX packets 250546  bytes 17105106 (17.1 MB)
+s301-eth14: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 350848  bytes 706297064 (706.2 MB)
+        TX packets 256008  bytes 17428646 (17.4 MB)
+s301-eth15: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338251  bytes 682241958 (682.2 MB)
+        TX packets 247687  bytes 16910152 (16.9 MB)
+s301-eth16: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334753  bytes 681238730 (681.2 MB)
+        TX packets 245718  bytes 16705162 (16.7 MB)
+s301-eth17: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330134  bytes 662306788 (662.3 MB)
+        TX packets 241795  bytes 16578612 (16.5 MB)
+s301-eth18: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330225  bytes 666821706 (666.8 MB)
+        TX packets 242886  bytes 16595322 (16.5 MB)
+s301-eth19: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331835  bytes 665598846 (665.5 MB)
+        TX packets 241666  bytes 16489030 (16.4 MB)
+s301-eth20: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337705  bytes 676600674 (676.6 MB)
+        TX packets 245542  bytes 16753154 (16.7 MB)
+s301-eth21: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338688  bytes 684565536 (684.5 MB)
+        TX packets 247669  bytes 16868292 (16.8 MB)
+s301-eth22: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336907  bytes 678120622 (678.1 MB)
+        TX packets 245956  bytes 16763534 (16.7 MB)
+s301-eth23: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 323650  bytes 651847500 (651.8 MB)
+        TX packets 237088  bytes 16252790 (16.2 MB)
+s301-eth24: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324831  bytes 657139814 (657.1 MB)
+        TX packets 238074  bytes 16239770 (16.2 MB)
+s301-eth25: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 347484  bytes 711688408 (711.6 MB)
+        TX packets 254379  bytes 17161380 (17.1 MB)
+s301-eth26: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341862  bytes 688364420 (688.3 MB)
+        TX packets 249342  bytes 17014778 (17.0 MB)
+s301-eth27: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334864  bytes 684029264 (684.0 MB)
+        TX packets 245656  bytes 16658202 (16.6 MB)
+s301-eth28: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335802  bytes 679223748 (679.2 MB)
+        TX packets 245639  bytes 16717008 (16.7 MB)
+s301-eth29: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342873  bytes 691555602 (691.5 MB)
+        TX packets 250142  bytes 17052754 (17.0 MB)
+s301-eth30: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332565  bytes 670849466 (670.8 MB)
+        TX packets 243443  bytes 16613412 (16.6 MB)
+s301-eth31: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330122  bytes 668039948 (668.0 MB)
+        TX packets 242705  bytes 16568480 (16.5 MB)
+s301-eth32: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330321  bytes 664687602 (664.6 MB)
+        TX packets 242100  bytes 16533126 (16.5 MB)
+s301-eth33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 320258  bytes 643823980 (643.8 MB)
+        TX packets 235297  bytes 16109536 (16.1 MB)
+s301-eth34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342587  bytes 690947982 (690.9 MB)
+        TX packets 250991  bytes 17112108 (17.1 MB)
+s301-eth35: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340485  bytes 680541090 (680.5 MB)
+        TX packets 249051  bytes 17044328 (17.0 MB)
+s301-eth36: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 352779  bytes 713128862 (713.1 MB)
+        TX packets 259381  bytes 17593612 (17.5 MB)
+s301-eth37: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341013  bytes 689057714 (689.0 MB)
+        TX packets 249939  bytes 17033588 (17.0 MB)
+s301-eth38: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 312423  bytes 625419958 (625.4 MB)
+        TX packets 228369  bytes 15624188 (15.6 MB)
+s301-eth39: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331538  bytes 672464756 (672.4 MB)
+        TX packets 243180  bytes 16560534 (16.5 MB)
+s301-eth40: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337796  bytes 684815776 (684.8 MB)
+        TX packets 247530  bytes 16820042 (16.8 MB)
+s301-eth41: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345228  bytes 695868272 (695.8 MB)
+        TX packets 251398  bytes 17114942 (17.1 MB)
+s301-eth42: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336648  bytes 678780720 (678.7 MB)
+        TX packets 245945  bytes 16799112 (16.7 MB)
+s301-eth43: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 316624  bytes 633071640 (633.0 MB)
+        TX packets 231794  bytes 15898026 (15.8 MB)
+s301-eth44: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333508  bytes 669750432 (669.7 MB)
+        TX packets 244675  bytes 16732100 (16.7 MB)
+s301-eth45: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 318809  bytes 641347610 (641.3 MB)
+        TX packets 233883  bytes 16055836 (16.0 MB)
+s301-eth46: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 327608  bytes 659477784 (659.4 MB)
+        TX packets 240137  bytes 16399288 (16.3 MB)
+s301-eth47: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341604  bytes 692322312 (692.3 MB)
+        TX packets 249716  bytes 16946450 (16.9 MB)
+s301-eth48: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340035  bytes 694425958 (694.4 MB)
+        TX packets 249679  bytes 16938664 (16.9 MB)
+s301-eth49: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330244  bytes 662072448 (662.0 MB)
+        TX packets 242358  bytes 16590898 (16.5 MB)
+s301-eth50: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324512  bytes 657389784 (657.3 MB)
+        TX packets 238564  bytes 16246570 (16.2 MB)
+s301-eth51: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 346500  bytes 702704520 (702.7 MB)
+        TX packets 253430  bytes 17217142 (17.2 MB)
+s301-eth52: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336734  bytes 678324228 (678.3 MB)
+        TX packets 246040  bytes 16832302 (16.8 MB)
+s301-eth53: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331107  bytes 671090518 (671.0 MB)
+        TX packets 242998  bytes 16529274 (16.5 MB)
+s301-eth54: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339956  bytes 685714392 (685.7 MB)
+        TX packets 248927  bytes 16958276 (16.9 MB)
+s301-eth55: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 317825  bytes 634985146 (634.9 MB)
+        TX packets 232578  bytes 15951014 (15.9 MB)
+s301-eth56: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339348  bytes 688063280 (688.0 MB)
+        TX packets 248112  bytes 16886202 (16.8 MB)
+s301-eth57: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333899  bytes 674529054 (674.5 MB)
+        TX packets 244203  bytes 16635996 (16.6 MB)
+s301-eth58: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 320491  bytes 648121278 (648.1 MB)
+        TX packets 235623  bytes 16098016 (16.0 MB)
+s301-eth59: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335311  bytes 673740646 (673.7 MB)
+        TX packets 245337  bytes 16738340 (16.7 MB)
+s301-eth60: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334398  bytes 675008180 (675.0 MB)
+        TX packets 244911  bytes 16714972 (16.7 MB)
+s301-eth61: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333080  bytes 670067952 (670.0 MB)
+        TX packets 243156  bytes 16579162 (16.5 MB)
+s301-eth62: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336826  bytes 684589692 (684.5 MB)
+        TX packets 246808  bytes 16723350 (16.7 MB)
+s301-eth63: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343880  bytes 690976160 (690.9 MB)
+        TX packets 249947  bytes 17037196 (17.0 MB)
+s301-eth64: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332019  bytes 667758366 (667.7 MB)
+        TX packets 241815  bytes 16489544 (16.4 MB)
+s301-eth65: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 291767  bytes 583733494 (583.7 MB)
+        TX packets 212038  bytes 14429558 (14.4 MB)
+s301-eth66: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 349992  bytes 708452248 (708.4 MB)
+        TX packets 255939  bytes 17381068 (17.3 MB)
+s301-eth67: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331705  bytes 669977186 (669.9 MB)
+        TX packets 243677  bytes 16639960 (16.6 MB)
+s301-eth68: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 354072  bytes 715275264 (715.2 MB)
+        TX packets 257823  bytes 17536212 (17.5 MB)
+s301-eth69: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 329324  bytes 663713176 (663.7 MB)
+        TX packets 241653  bytes 16535208 (16.5 MB)
+s301-eth70: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 328824  bytes 663344712 (663.3 MB)
+        TX packets 240935  bytes 16482848 (16.4 MB)
+s301-eth71: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337830  bytes 681716172 (681.7 MB)
+        TX packets 246993  bytes 16820484 (16.8 MB)
+s301-eth72: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333934  bytes 673165052 (673.1 MB)
+        TX packets 243935  bytes 16648476 (16.6 MB)
+s301-eth73: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340757  bytes 686934562 (686.9 MB)
+        TX packets 249151  bytes 16992692 (16.9 MB)
+s301-eth74: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324284  bytes 658437928 (658.4 MB)
+        TX packets 237708  bytes 16221226 (16.2 MB)
+s301-eth75: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339009  bytes 683956826 (683.9 MB)
+        TX packets 248035  bytes 16899592 (16.8 MB)
+s301-eth76: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 344816  bytes 693587432 (693.5 MB)
+        TX packets 251580  bytes 17136682 (17.1 MB)
+s301-eth77: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 346305  bytes 700115786 (700.1 MB)
+        TX packets 252617  bytes 17163708 (17.1 MB)
+s301-eth78: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 319863  bytes 652682310 (652.6 MB)
+        TX packets 235597  bytes 16038640 (16.0 MB)
+s301-eth79: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330188  bytes 667515168 (667.5 MB)
+        TX packets 241565  bytes 16481424 (16.4 MB)
+s301-eth80: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 313560  bytes 633404000 (633.4 MB)
+        TX packets 230031  bytes 15760288 (15.7 MB)
+s301-eth81: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 328284  bytes 663110872 (663.1 MB)
+        TX packets 240699  bytes 16407304 (16.4 MB)
+s301-eth82: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345555  bytes 697092886 (697.0 MB)
+        TX packets 252689  bytes 17193436 (17.1 MB)
+s301-eth83: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331404  bytes 665074280 (665.0 MB)
+        TX packets 242303  bytes 16559380 (16.5 MB)
+s301-eth84: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333541  bytes 671861682 (671.8 MB)
+        TX packets 243864  bytes 16656806 (16.6 MB)
+s301-eth85: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 344141  bytes 699519626 (699.5 MB)
+        TX packets 250243  bytes 17015920 (17.0 MB)
+s301-eth86: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330922  bytes 667880892 (667.8 MB)
+        TX packets 241507  bytes 16505548 (16.5 MB)
+s301-eth87: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334159  bytes 671333190 (671.3 MB)
+        TX packets 244228  bytes 16684246 (16.6 MB)
+s301-eth88: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336094  bytes 680729740 (680.7 MB)
+        TX packets 245743  bytes 16700208 (16.7 MB)
+s301-eth89: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337958  bytes 683292628 (683.2 MB)
+        TX packets 246663  bytes 16782704 (16.7 MB)
+s301-eth90: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340704  bytes 687031816 (687.0 MB)
+        TX packets 248750  bytes 16944062 (16.9 MB)
+s301-eth91: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333420  bytes 674414904 (674.4 MB)
+        TX packets 243934  bytes 16583982 (16.5 MB)
+s301-eth92: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342500  bytes 682203544 (682.2 MB)
+        TX packets 249136  bytes 17042418 (17.0 MB)
+s301-eth93: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 347155  bytes 704957486 (704.9 MB)
+        TX packets 254456  bytes 17267726 (17.2 MB)
+s301-eth94: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335405  bytes 675146506 (675.1 MB)
+        TX packets 244914  bytes 16696954 (16.6 MB)
+s301-eth95: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 327023  bytes 659008214 (659.0 MB)
+        TX packets 239151  bytes 16323728 (16.3 MB)
+s301-eth96: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335847  bytes 678598694 (678.5 MB)
+        TX packets 245713  bytes 16688576 (16.6 MB)
+s301-eth97: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 322717  bytes 652420762 (652.4 MB)
+        TX packets 236089  bytes 16137676 (16.1 MB)
+s301-eth98: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336475  bytes 678332942 (678.3 MB)
+        TX packets 245486  bytes 16724234 (16.7 MB)
+s301-eth99: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334556  bytes 680174288 (680.1 MB)
+        TX packets 245520  bytes 16681658 (16.6 MB)
+s301-eth100: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332641  bytes 676654298 (676.6 MB)
+        TX packets 243791  bytes 16579472 (16.5 MB)
+s301-eth101: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 315251  bytes 638195702 (638.1 MB)
+        TX packets 232403  bytes 15919540 (15.9 MB)
+s302-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13221480  bytes 879615778 (879.6 MB)
+        TX packets 21824690  bytes 65271525792 (65.2 GB)
+s302-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2142923  bytes 6056751014 (6.0 GB)
+        TX packets 1298375  bytes 86455988 (86.4 MB)
+s302-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2160494  bytes 6496461268 (6.4 GB)
+        TX packets 1310501  bytes 87218848 (87.2 MB)
+s302-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2154583  bytes 6542108342 (6.5 GB)
+        TX packets 1308222  bytes 87042358 (87.0 MB)
+s302-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2178943  bytes 6534941662 (6.5 GB)
+        TX packets 1323878  bytes 88121694 (88.1 MB)
+s302-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2234236  bytes 6728416984 (6.7 GB)
+        TX packets 1353662  bytes 90064090 (90.0 MB)
+s302-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2203164  bytes 6585002032 (6.5 GB)
+        TX packets 1338451  bytes 89134244 (89.1 MB)
+s302-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2179003  bytes 6637744798 (6.6 GB)
+        TX packets 1321878  bytes 87989794 (87.9 MB)
+s302-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2185090  bytes 6582501444 (6.5 GB)
+        TX packets 1325406  bytes 88213202 (88.2 MB)
+s302-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2188067  bytes 6540892822 (6.5 GB)
+        TX packets 1329868  bytes 88537450 (88.5 MB)
+s302-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2198612  bytes 6567601776 (6.5 GB)
+        TX packets 1326737  bytes 88274220 (88.2 MB)
+s303-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 14199281  bytes 944122730 (944.1 MB)
+        TX packets 23861174  bytes 65950534428 (65.9 GB)
+s303-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2416299  bytes 6524349294 (6.5 GB)
+        TX packets 1442575  bytes 95973824 (95.9 MB)
+s303-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2380222  bytes 6654043988 (6.6 GB)
+        TX packets 1419562  bytes 94430786 (94.4 MB)
+s303-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2437472  bytes 6672402488 (6.6 GB)
+        TX packets 1450962  bytes 96506422 (96.5 MB)
+s303-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2383411  bytes 6620520430 (6.6 GB)
+        TX packets 1414390  bytes 94053434 (94.0 MB)
+s303-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2371713  bytes 6650034258 (6.6 GB)
+        TX packets 1413670  bytes 94043646 (94.0 MB)
+s303-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2398342  bytes 6541714700 (6.5 GB)
+        TX packets 1432089  bytes 95312296 (95.3 MB)
+s303-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2357213  bytes 6599520570 (6.5 GB)
+        TX packets 1404459  bytes 93385600 (93.3 MB)
+s303-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2352052  bytes 6673772328 (6.6 GB)
+        TX packets 1397425  bytes 92886000 (92.8 MB)
+s303-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2374588  bytes 6467247536 (6.4 GB)
+        TX packets 1415852  bytes 94244322 (94.2 MB)
+s303-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2390397  bytes 6548170298 (6.5 GB)
+        TX packets 1423742  bytes 94712994 (94.7 MB)
+s304-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13152600  bytes 875168872 (875.1 MB)
+        TX packets 21612851  bytes 65391261814 (65.3 GB)
+s304-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2145655  bytes 6649225502 (6.6 GB)
+        TX packets 1311251  bytes 87256722 (87.2 MB)
+s304-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2177381  bytes 6701917218 (6.7 GB)
+        TX packets 1332254  bytes 88663604 (88.6 MB)
+s304-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2165574  bytes 6455737548 (6.4 GB)
+        TX packets 1322294  bytes 88062972 (88.0 MB)
+s304-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2261884  bytes 6613609360 (6.6 GB)
+        TX packets 1382045  bytes 92092222 (92.0 MB)
+s304-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2138163  bytes 6604759918 (6.6 GB)
+        TX packets 1300396  bytes 86530708 (86.5 MB)
+s304-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2178514  bytes 6524335764 (6.5 GB)
+        TX packets 1327352  bytes 88373612 (88.3 MB)
+s304-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2130915  bytes 6339376558 (6.3 GB)
+        TX packets 1294295  bytes 86156282 (86.1 MB)
+s304-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2131838  bytes 6368570668 (6.3 GB)
+        TX packets 1288691  bytes 85748270 (85.7 MB)
+s304-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2114555  bytes 6603074398 (6.6 GB)
+        TX packets 1285852  bytes 85540252 (85.5 MB)
+s304-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2168525  bytes 6531203594 (6.5 GB)
+        TX packets 1323471  bytes 88166446 (88.1 MB)
+s305-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13719847  bytes 912808495 (912.8 MB)
+        TX packets 22777435  bytes 65655675423 (65.6 GB)
+s305-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2271773  bytes 6672302458 (6.6 GB)
+        TX packets 1370868  bytes 91193814 (91.1 MB)
+s305-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2246709  bytes 6558198506 (6.5 GB)
+        TX packets 1351462  bytes 89924618 (89.9 MB)
+s305-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2292875  bytes 6493050942 (6.4 GB)
+        TX packets 1383906  bytes 92151370 (92.1 MB)
+s305-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2274278  bytes 6583728580 (6.5 GB)
+        TX packets 1371714  bytes 91327946 (91.3 MB)
+s305-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2249575  bytes 6472765614 (6.4 GB)
+        TX packets 1358862  bytes 90432150 (90.4 MB)
+s305-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2276318  bytes 6607641580 (6.6 GB)
+        TX packets 1373668  bytes 91441006 (91.4 MB)
+s305-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2312253  bytes 6567248186 (6.5 GB)
+        TX packets 1393684  bytes 92762626 (92.7 MB)
+s305-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2305722  bytes 6626779156 (6.6 GB)
+        TX packets 1387811  bytes 92377244 (92.3 MB)
+s305-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2273530  bytes 6446396108 (6.4 GB)
+        TX packets 1377055  bytes 91743784 (91.7 MB)
+s305-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2274423  bytes 6627909494 (6.6 GB)
+        TX packets 1365927  bytes 90852784 (90.8 MB)
+s306-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13959958  bytes 928763650 (928.7 MB)
+        TX packets 23296426  bytes 65943019405 (65.9 GB)
+s306-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2389638  bytes 6657243884 (6.6 GB)
+        TX packets 1434079  bytes 95487718 (95.4 MB)
+s306-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2305265  bytes 6655561482 (6.6 GB)
+        TX packets 1382809  bytes 91984262 (91.9 MB)
+s306-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2347731  bytes 6635858134 (6.6 GB)
+        TX packets 1405308  bytes 93512396 (93.5 MB)
+s306-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2318482  bytes 6494265028 (6.4 GB)
+        TX packets 1392474  bytes 92722296 (92.7 MB)
+s306-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2338878  bytes 6613300836 (6.6 GB)
+        TX packets 1402490  bytes 93332532 (93.3 MB)
+s306-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2302561  bytes 6479583970 (6.4 GB)
+        TX packets 1383512  bytes 92110188 (92.1 MB)
+s306-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2324310  bytes 6486422292 (6.4 GB)
+        TX packets 1397842  bytes 93112368 (93.1 MB)
+s306-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2344286  bytes 6612991156 (6.6 GB)
+        TX packets 1403133  bytes 93359010 (93.3 MB)
+s306-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2308100  bytes 6551968728 (6.5 GB)
+        TX packets 1386374  bytes 92297836 (92.2 MB)
+s306-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2317445  bytes 6756616938 (6.7 GB)
+        TX packets 1386867  bytes 92222118 (92.2 MB)
+s307-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13211712  bytes 879187809 (879.1 MB)
+        TX packets 21742460  bytes 65474826336 (65.4 GB)
+s307-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2194883  bytes 6517702718 (6.5 GB)
+        TX packets 1340004  bytes 89248003 (89.2 MB)
+s307-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2193646  bytes 6681445484 (6.6 GB)
+        TX packets 1334797  bytes 88838637 (88.8 MB)
+s307-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2193650  bytes 6538938860 (6.5 GB)
+        TX packets 1344029  bytes 89517585 (89.5 MB)
+s307-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2154237  bytes 6680160578 (6.6 GB)
+        TX packets 1307535  bytes 87003049 (87.0 MB)
+s307-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2201297  bytes 6631165730 (6.6 GB)
+        TX packets 1338588  bytes 89130983 (89.1 MB)
+s307-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2157170  bytes 6572280020 (6.5 GB)
+        TX packets 1318367  bytes 87788897 (87.7 MB)
+s307-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2064377  bytes 6139623426 (6.1 GB)
+        TX packets 1247561  bytes 82980225 (82.9 MB)
+s307-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2183632  bytes 6486791400 (6.4 GB)
+        TX packets 1329250  bytes 88550183 (88.5 MB)
+s307-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2225480  bytes 6767770536 (6.7 GB)
+        TX packets 1351059  bytes 89935045 (89.9 MB)
+s307-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2174211  bytes 6459677118 (6.4 GB)
+        TX packets 1315291  bytes 87552229 (87.5 MB)
+s308-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13967814  bytes 929283240 (929.2 MB)
+        TX packets 23303233  bytes 65806218330 (65.8 GB)
+s308-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2349786  bytes 6590582284 (6.5 GB)
+        TX packets 1411635  bytes 93944733 (93.9 MB)
+s308-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2367173  bytes 6575422554 (6.5 GB)
+        TX packets 1424990  bytes 94846211 (94.8 MB)
+s308-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2396771  bytes 6648990238 (6.6 GB)
+        TX packets 1437490  bytes 95728535 (95.7 MB)
+s308-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2302261  bytes 6559261994 (6.5 GB)
+        TX packets 1383018  bytes 92027815 (92.0 MB)
+s308-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2282523  bytes 6472624918 (6.4 GB)
+        TX packets 1369972  bytes 91147475 (91.1 MB)
+s308-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2334784  bytes 6614092872 (6.6 GB)
+        TX packets 1402679  bytes 93377585 (93.3 MB)
+s308-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2335153  bytes 6528029602 (6.5 GB)
+        TX packets 1405989  bytes 93631193 (93.6 MB)
+s308-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2273177  bytes 6792763914 (6.7 GB)
+        TX packets 1359541  bytes 90384869 (90.3 MB)
+s308-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2346714  bytes 6565412980 (6.5 GB)
+        TX packets 1403657  bytes 93458485 (93.4 MB)
+s308-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2315772  bytes 6460485216 (6.4 GB)
+        TX packets 1383590  bytes 92095499 (92.0 MB)
+s309-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13600730  bytes 904913772 (904.9 MB)
+        TX packets 22556158  bytes 65632582273 (65.6 GB)
+s309-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2257574  bytes 6664676580 (6.6 GB)
+        TX packets 1360002  bytes 90456656 (90.4 MB)
+s309-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2301260  bytes 6515891448 (6.5 GB)
+        TX packets 1394692  bytes 92888232 (92.8 MB)
+s309-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2289838  bytes 6620097988 (6.6 GB)
+        TX packets 1383699  bytes 92106934 (92.1 MB)
+s309-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2225847  bytes 6418873998 (6.4 GB)
+        TX packets 1338329  bytes 89059694 (89.0 MB)
+s309-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2273764  bytes 6673344024 (6.6 GB)
+        TX packets 1369613  bytes 91124666 (91.1 MB)
+s309-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2261558  bytes 6570924284 (6.5 GB)
+        TX packets 1363621  bytes 90762086 (90.7 MB)
+s309-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2230023  bytes 6499947758 (6.4 GB)
+        TX packets 1347201  bytes 89700218 (89.7 MB)
+s309-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2211264  bytes 6521985080 (6.5 GB)
+        TX packets 1330846  bytes 88573572 (88.5 MB)
+s309-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2237850  bytes 6601063988 (6.6 GB)
+        TX packets 1359231  bytes 90492782 (90.4 MB)
+s309-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2267979  bytes 6547017030 (6.5 GB)
+        TX packets 1367994  bytes 91079552 (91.0 MB)
+s310-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13787478  bytes 917215416 (917.2 MB)
+        TX packets 22966245  bytes 65784220583 (65.7 GB)
+s310-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2334226  bytes 6606254780 (6.6 GB)
+        TX packets 1406127  bytes 93616149 (93.6 MB)
+s310-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2217402  bytes 6660845636 (6.6 GB)
+        TX packets 1323416  bytes 87931747 (87.9 MB)
+s310-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2280919  bytes 6534709294 (6.5 GB)
+        TX packets 1369294  bytes 91106827 (91.1 MB)
+s310-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2247401  bytes 6466009282 (6.4 GB)
+        TX packets 1355373  bytes 90192405 (90.1 MB)
+s310-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2323887  bytes 6531262358 (6.5 GB)
+        TX packets 1402515  bytes 93388805 (93.3 MB)
+s310-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2348234  bytes 6643680940 (6.6 GB)
+        TX packets 1412565  bytes 94034841 (94.0 MB)
+s310-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2298988  bytes 6492505480 (6.4 GB)
+        TX packets 1381109  bytes 91931337 (91.9 MB)
+s310-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2314564  bytes 6680478424 (6.6 GB)
+        TX packets 1390029  bytes 92522793 (92.5 MB)
+s310-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2263534  bytes 6554722996 (6.5 GB)
+        TX packets 1358616  bytes 90404475 (90.4 MB)
+s310-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2337185  bytes 6614104986 (6.6 GB)
+        TX packets 1402775  bytes 93401989 (93.4 MB)
+NewStart 1481766450.27711
+enp0s31f6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 1319646  bytes 132688121 (132.6 MB)
+        TX packets 22222  bytes 4794716 (4.7 MB)
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        RX packets 1215942  bytes 87130820 (87.1 MB)
+        TX packets 1215942  bytes 87130820 (87.1 MB)
+s101-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 147131661  bytes 9823762578 (9.8 GB)
+        TX packets 237410095  bytes 658503368884 (658.5 GB)
+s101-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 123533423  bytes 329834521575 (329.8 GB)
+        TX packets 78606245  bytes 5264788955 (5.2 GB)
+s101-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 113877148  bytes 328668679299 (328.6 GB)
+        TX packets 68527722  bytes 4559175854 (4.5 GB)
+s201-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 78606132  bytes 5264781473 (5.2 GB)
+        TX packets 123533229  bytes 329834091611 (329.8 GB)
+s201-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 33448713  bytes 67543799439 (67.5 GB)
+        TX packets 24315084  bytes 1653400121 (1.6 GB)
+s201-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21826855  bytes 65277055706 (65.2 GB)
+        TX packets 13222801  bytes 879704012 (879.7 MB)
+s201-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23863748  bytes 65956145336 (65.9 GB)
+        TX packets 14200840  bytes 944226164 (944.2 MB)
+s201-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21615615  bytes 65396933670 (65.3 GB)
+        TX packets 13154151  bytes 875271714 (875.2 MB)
+s201-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22779325  bytes 65661293923 (65.6 GB)
+        TX packets 13720984  bytes 912883929 (912.8 MB)
+s202-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 68527732  bytes 4559176514 (4.5 GB)
+        TX packets 113877164  bytes 328668750131 (328.6 GB)
+s202-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23298801  bytes 65948470339 (65.9 GB)
+        TX packets 13961322  bytes 928853850 (928.8 MB)
+s202-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21744594  bytes 65480457300 (65.4 GB)
+        TX packets 13212988  bytes 879272209 (879.2 MB)
+s202-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23306462  bytes 65811899156 (65.8 GB)
+        TX packets 13969549  bytes 929398014 (929.3 MB)
+s202-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22559301  bytes 65638175791 (65.6 GB)
+        TX packets 13602376  bytes 905023920 (905.0 MB)
+s202-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22968030  bytes 65789825057 (65.7 GB)
+        TX packets 13788490  bytes 917283660 (917.2 MB)
+s301-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 24315048  bytes 1653397721 (1.6 GB)
+        TX packets 33448662  bytes 67543713537 (67.5 GB)
+s301-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343896  bytes 717799024 (717.7 MB)
+        TX packets 255204  bytes 17318518 (17.3 MB)
+s301-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330855  bytes 668936966 (668.9 MB)
+        TX packets 244213  bytes 16675996 (16.6 MB)
+s301-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339960  bytes 687211408 (687.2 MB)
+        TX packets 249336  bytes 16992894 (16.9 MB)
+s301-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345985  bytes 705037442 (705.0 MB)
+        TX packets 254061  bytes 17235536 (17.2 MB)
+s301-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341866  bytes 693608532 (693.6 MB)
+        TX packets 250042  bytes 16981978 (16.9 MB)
+s301-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333784  bytes 670223496 (670.2 MB)
+        TX packets 243713  bytes 16640540 (16.6 MB)
+s301-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 329852  bytes 663799240 (663.7 MB)
+        TX packets 241961  bytes 16560120 (16.5 MB)
+s301-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339214  bytes 683731380 (683.7 MB)
+        TX packets 249308  bytes 17011086 (17.0 MB)
+s301-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330524  bytes 665240896 (665.2 MB)
+        TX packets 241907  bytes 16527364 (16.5 MB)
+s301-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343489  bytes 692416114 (692.4 MB)
+        TX packets 252669  bytes 17238144 (17.2 MB)
+s301-eth12: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338238  bytes 683055492 (683.0 MB)
+        TX packets 247357  bytes 16868668 (16.8 MB)
+s301-eth13: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342356  bytes 688078984 (688.0 MB)
+        TX packets 250569  bytes 17106624 (17.1 MB)
+s301-eth14: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 350859  bytes 706328198 (706.3 MB)
+        TX packets 256019  bytes 17429372 (17.4 MB)
+s301-eth15: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338263  bytes 682276054 (682.2 MB)
+        TX packets 247698  bytes 16910878 (16.9 MB)
+s301-eth16: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334771  bytes 681287702 (681.2 MB)
+        TX packets 245735  bytes 16706284 (16.7 MB)
+s301-eth17: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330157  bytes 662373466 (662.3 MB)
+        TX packets 241842  bytes 16581750 (16.5 MB)
+s301-eth18: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330281  bytes 666905474 (666.9 MB)
+        TX packets 242907  bytes 16596708 (16.5 MB)
+s301-eth19: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331838  bytes 665607732 (665.6 MB)
+        TX packets 241685  bytes 16490284 (16.4 MB)
+s301-eth20: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337728  bytes 676665904 (676.6 MB)
+        TX packets 245584  bytes 16755938 (16.7 MB)
+s301-eth21: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338705  bytes 684614442 (684.6 MB)
+        TX packets 247711  bytes 16871064 (16.8 MB)
+s301-eth22: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336954  bytes 678192532 (678.1 MB)
+        TX packets 245980  bytes 16765118 (16.7 MB)
+s301-eth23: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 323697  bytes 651917538 (651.9 MB)
+        TX packets 237110  bytes 16254242 (16.2 MB)
+s301-eth24: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324841  bytes 657169434 (657.1 MB)
+        TX packets 238084  bytes 16240430 (16.2 MB)
+s301-eth25: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 347527  bytes 711753734 (711.7 MB)
+        TX packets 254400  bytes 17162766 (17.1 MB)
+s301-eth26: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341877  bytes 688407402 (688.4 MB)
+        TX packets 249357  bytes 17015768 (17.0 MB)
+s301-eth27: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334867  bytes 684038150 (684.0 MB)
+        TX packets 245666  bytes 16658862 (16.6 MB)
+s301-eth28: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335804  bytes 679228224 (679.2 MB)
+        TX packets 245660  bytes 16718394 (16.7 MB)
+s301-eth29: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342894  bytes 691614908 (691.6 MB)
+        TX packets 250170  bytes 17054638 (17.0 MB)
+s301-eth30: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332565  bytes 670849466 (670.8 MB)
+        TX packets 243443  bytes 16613412 (16.6 MB)
+s301-eth31: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330184  bytes 668132904 (668.1 MB)
+        TX packets 242727  bytes 16569932 (16.5 MB)
+s301-eth32: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330321  bytes 664687602 (664.6 MB)
+        TX packets 242100  bytes 16533126 (16.5 MB)
+s301-eth33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 320261  bytes 643824178 (643.8 MB)
+        TX packets 235321  bytes 16111776 (16.1 MB)
+s301-eth34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342594  bytes 690967268 (690.9 MB)
+        TX packets 250997  bytes 17112504 (17.1 MB)
+s301-eth35: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340486  bytes 680541156 (680.5 MB)
+        TX packets 249052  bytes 17044394 (17.0 MB)
+s301-eth36: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 352854  bytes 713271452 (713.2 MB)
+        TX packets 259426  bytes 17596582 (17.5 MB)
+s301-eth37: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341037  bytes 689094138 (689.0 MB)
+        TX packets 249951  bytes 17034380 (17.0 MB)
+s301-eth38: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 312496  bytes 625561392 (625.5 MB)
+        TX packets 228410  bytes 15626942 (15.6 MB)
+s301-eth39: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331545  bytes 672482594 (672.4 MB)
+        TX packets 243186  bytes 16560930 (16.5 MB)
+s301-eth40: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337843  bytes 684885638 (684.8 MB)
+        TX packets 247553  bytes 16821560 (16.8 MB)
+s301-eth41: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345240  bytes 695885864 (695.8 MB)
+        TX packets 251402  bytes 17115206 (17.1 MB)
+s301-eth42: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336661  bytes 678795642 (678.7 MB)
+        TX packets 245947  bytes 16799908 (16.7 MB)
+s301-eth43: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 316647  bytes 633135422 (633.1 MB)
+        TX packets 231831  bytes 15900468 (15.9 MB)
+s301-eth44: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333531  bytes 669817110 (669.8 MB)
+        TX packets 244706  bytes 16734146 (16.7 MB)
+s301-eth45: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 318833  bytes 641414354 (641.4 MB)
+        TX packets 233915  bytes 16057948 (16.0 MB)
+s301-eth46: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 327609  bytes 659477858 (659.4 MB)
+        TX packets 240137  bytes 16399288 (16.3 MB)
+s301-eth47: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341700  bytes 692497608 (692.4 MB)
+        TX packets 249790  bytes 16951370 (16.9 MB)
+s301-eth48: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340038  bytes 694433396 (694.4 MB)
+        TX packets 249700  bytes 16940050 (16.9 MB)
+s301-eth49: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330267  bytes 662139126 (662.1 MB)
+        TX packets 242380  bytes 16592350 (16.5 MB)
+s301-eth50: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324536  bytes 657456528 (657.4 MB)
+        TX packets 238594  bytes 16248634 (16.2 MB)
+s301-eth51: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 346507  bytes 702722358 (702.7 MB)
+        TX packets 253436  bytes 17217538 (17.2 MB)
+s301-eth52: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336757  bytes 678390906 (678.3 MB)
+        TX packets 246069  bytes 16834216 (16.8 MB)
+s301-eth53: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331110  bytes 671099404 (671.0 MB)
+        TX packets 243017  bytes 16530528 (16.5 MB)
+s301-eth54: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339966  bytes 685741116 (685.7 MB)
+        TX packets 248937  bytes 16958936 (16.9 MB)
+s301-eth55: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 317831  bytes 635000022 (635.0 MB)
+        TX packets 232588  bytes 15951674 (15.9 MB)
+s301-eth56: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339370  bytes 688105508 (688.1 MB)
+        TX packets 248126  bytes 16887126 (16.8 MB)
+s301-eth57: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333901  bytes 674529842 (674.5 MB)
+        TX packets 244205  bytes 16636784 (16.6 MB)
+s301-eth58: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 320499  bytes 648144974 (648.1 MB)
+        TX packets 235637  bytes 16098940 (16.0 MB)
+s301-eth59: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335335  bytes 673807390 (673.8 MB)
+        TX packets 245364  bytes 16740122 (16.7 MB)
+s301-eth60: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334399  bytes 675008254 (675.0 MB)
+        TX packets 244912  bytes 16715694 (16.7 MB)
+s301-eth61: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333103  bytes 670133182 (670.1 MB)
+        TX packets 243201  bytes 16582132 (16.5 MB)
+s301-eth62: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336837  bytes 684622274 (684.6 MB)
+        TX packets 246818  bytes 16724010 (16.7 MB)
+s301-eth63: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343880  bytes 690976160 (690.9 MB)
+        TX packets 249947  bytes 17037196 (17.0 MB)
+s301-eth64: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332020  bytes 667758440 (667.7 MB)
+        TX packets 241815  bytes 16489544 (16.4 MB)
+s301-eth65: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 291851  bytes 583884126 (583.8 MB)
+        TX packets 212081  bytes 14432444 (14.4 MB)
+s301-eth66: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 349994  bytes 708453036 (708.4 MB)
+        TX packets 255941  bytes 17381856 (17.3 MB)
+s301-eth67: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331767  bytes 670071166 (670.0 MB)
+        TX packets 243699  bytes 16641412 (16.6 MB)
+s301-eth68: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 354079  bytes 715293102 (715.2 MB)
+        TX packets 257829  bytes 17536608 (17.5 MB)
+s301-eth69: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 329347  bytes 663779854 (663.7 MB)
+        TX packets 241703  bytes 16538580 (16.5 MB)
+s301-eth70: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 328847  bytes 663411390 (663.4 MB)
+        TX packets 240999  bytes 16487072 (16.4 MB)
+s301-eth71: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337853  bytes 681782850 (681.7 MB)
+        TX packets 247049  bytes 16824216 (16.8 MB)
+s301-eth72: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334010  bytes 673311380 (673.3 MB)
+        TX packets 243985  bytes 16651776 (16.6 MB)
+s301-eth73: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340808  bytes 687023584 (687.0 MB)
+        TX packets 249168  bytes 16993814 (16.9 MB)
+s301-eth74: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324303  bytes 658492758 (658.4 MB)
+        TX packets 237727  bytes 16222480 (16.2 MB)
+s301-eth75: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339032  bytes 684023504 (684.0 MB)
+        TX packets 248069  bytes 16901836 (16.9 MB)
+s301-eth76: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 344839  bytes 693651214 (693.6 MB)
+        TX packets 251610  bytes 17138698 (17.1 MB)
+s301-eth77: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 346324  bytes 700169168 (700.1 MB)
+        TX packets 252636  bytes 17164962 (17.1 MB)
+s301-eth78: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 319885  bytes 652746026 (652.7 MB)
+        TX packets 235619  bytes 16040092 (16.0 MB)
+s301-eth79: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330193  bytes 667528530 (667.5 MB)
+        TX packets 241583  bytes 16482612 (16.4 MB)
+s301-eth80: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 313583  bytes 633470678 (633.4 MB)
+        TX packets 230058  bytes 15762070 (15.7 MB)
+s301-eth81: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 328357  bytes 663250434 (663.2 MB)
+        TX packets 240755  bytes 16411060 (16.4 MB)
+s301-eth82: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345557  bytes 697093674 (697.0 MB)
+        TX packets 252690  bytes 17193510 (17.1 MB)
+s301-eth83: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331423  bytes 665129110 (665.1 MB)
+        TX packets 242322  bytes 16560634 (16.5 MB)
+s301-eth84: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333580  bytes 671919752 (671.9 MB)
+        TX packets 243868  bytes 16657070 (16.6 MB)
+s301-eth85: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 344164  bytes 699586304 (699.5 MB)
+        TX packets 250272  bytes 17017834 (17.0 MB)
+s301-eth86: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330945  bytes 667947570 (667.9 MB)
+        TX packets 241546  bytes 16508134 (16.5 MB)
+s301-eth87: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334164  bytes 671345104 (671.3 MB)
+        TX packets 244236  bytes 16684774 (16.6 MB)
+s301-eth88: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336178  bytes 680888284 (680.8 MB)
+        TX packets 245796  bytes 16703706 (16.7 MB)
+s301-eth89: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337995  bytes 683349542 (683.3 MB)
+        TX packets 246667  bytes 16782968 (16.7 MB)
+s301-eth90: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340723  bytes 687085198 (687.0 MB)
+        TX packets 248769  bytes 16945316 (16.9 MB)
+s301-eth91: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333421  bytes 674414970 (674.4 MB)
+        TX packets 243935  bytes 16584048 (16.5 MB)
+s301-eth92: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342523  bytes 682268774 (682.2 MB)
+        TX packets 249157  bytes 17043804 (17.0 MB)
+s301-eth93: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 347238  bytes 705081948 (705.0 MB)
+        TX packets 254479  bytes 17269244 (17.2 MB)
+s301-eth94: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335519  bytes 675318494 (675.3 MB)
+        TX packets 244938  bytes 16698550 (16.6 MB)
+s301-eth95: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 327040  bytes 659055672 (659.0 MB)
+        TX packets 239175  bytes 16325324 (16.3 MB)
+s301-eth96: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335867  bytes 678655038 (678.6 MB)
+        TX packets 245733  bytes 16689896 (16.6 MB)
+s301-eth97: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 322741  bytes 652455738 (652.4 MB)
+        TX packets 236100  bytes 16138402 (16.1 MB)
+s301-eth98: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336477  bytes 678337418 (678.3 MB)
+        TX packets 245497  bytes 16724960 (16.7 MB)
+s301-eth99: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334619  bytes 680297406 (680.2 MB)
+        TX packets 245543  bytes 16683176 (16.6 MB)
+s301-eth100: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332656  bytes 676697280 (676.6 MB)
+        TX packets 243806  bytes 16580462 (16.5 MB)
+s301-eth101: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 315255  bytes 638207550 (638.2 MB)
+        TX packets 232421  bytes 15920728 (15.9 MB)
+s302-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13222798  bytes 879703814 (879.7 MB)
+        TX packets 21826853  bytes 65277009238 (65.2 GB)
+s302-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2143057  bytes 6056946002 (6.0 GB)
+        TX packets 1298459  bytes 86462232 (86.4 MB)
+s302-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2160678  bytes 6497072100 (6.4 GB)
+        TX packets 1310661  bytes 87229444 (87.2 MB)
+s302-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2154583  bytes 6542108342 (6.5 GB)
+        TX packets 1308222  bytes 87042358 (87.0 MB)
+s302-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2179124  bytes 6535529304 (6.5 GB)
+        TX packets 1324041  bytes 88132512 (88.1 MB)
+s302-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2234438  bytes 6729013212 (6.7 GB)
+        TX packets 1353853  bytes 90076804 (90.0 MB)
+s302-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2203595  bytes 6585889054 (6.5 GB)
+        TX packets 1338725  bytes 89152412 (89.1 MB)
+s302-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2179166  bytes 6638164452 (6.6 GB)
+        TX packets 1321999  bytes 87997804 (87.9 MB)
+s302-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2185274  bytes 6583107260 (6.5 GB)
+        TX packets 1325560  bytes 88223366 (88.2 MB)
+s302-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2188315  bytes 6541558934 (6.5 GB)
+        TX packets 1330015  bytes 88547188 (88.5 MB)
+s302-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2198612  bytes 6567601776 (6.5 GB)
+        TX packets 1326737  bytes 88274220 (88.2 MB)
+s303-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 14200839  bytes 944226098 (944.2 MB)
+        TX packets 23863747  bytes 65956142374 (65.9 GB)
+s303-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2416602  bytes 6524919380 (6.5 GB)
+        TX packets 1442662  bytes 95979578 (95.9 MB)
+s303-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2380445  bytes 6654549314 (6.6 GB)
+        TX packets 1419728  bytes 94441742 (94.4 MB)
+s303-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2437634  bytes 6672750548 (6.6 GB)
+        TX packets 1451078  bytes 96514078 (96.5 MB)
+s303-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2383634  bytes 6621054364 (6.6 GB)
+        TX packets 1414574  bytes 94065662 (94.0 MB)
+s303-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2371883  bytes 6650385990 (6.6 GB)
+        TX packets 1413765  bytes 94049916 (94.0 MB)
+s303-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2398551  bytes 6542209462 (6.5 GB)
+        TX packets 1432273  bytes 95324548 (95.3 MB)
+s303-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2357558  bytes 6600149748 (6.6 GB)
+        TX packets 1404598  bytes 93394798 (93.3 MB)
+s303-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2352273  bytes 6674255802 (6.6 GB)
+        TX packets 1397603  bytes 92897784 (92.8 MB)
+s303-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2374810  bytes 6467738564 (6.4 GB)
+        TX packets 1416042  bytes 94256946 (94.2 MB)
+s303-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2390623  bytes 6548680382 (6.5 GB)
+        TX packets 1423946  bytes 94726650 (94.7 MB)
+s304-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13154129  bytes 875270262 (875.2 MB)
+        TX packets 21615577  bytes 65396869578 (65.3 GB)
+s304-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2145999  bytes 6649952014 (6.6 GB)
+        TX packets 1311446  bytes 87269628 (87.2 MB)
+s304-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2177607  bytes 6702346454 (6.7 GB)
+        TX packets 1332366  bytes 88670996 (88.6 MB)
+s304-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2165907  bytes 6456355094 (6.4 GB)
+        TX packets 1322400  bytes 88069968 (88.0 MB)
+s304-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2262100  bytes 6614101872 (6.6 GB)
+        TX packets 1382224  bytes 92104156 (92.1 MB)
+s304-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2138480  bytes 6605461584 (6.6 GB)
+        TX packets 1300521  bytes 86538994 (86.5 MB)
+s304-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2178880  bytes 6525057088 (6.5 GB)
+        TX packets 1327539  bytes 88386026 (88.3 MB)
+s304-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2131267  bytes 6340104374 (6.3 GB)
+        TX packets 1294506  bytes 86170268 (86.1 MB)
+s304-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2132180  bytes 6369229168 (6.3 GB)
+        TX packets 1288821  bytes 85756850 (85.7 MB)
+s304-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2114920  bytes 6603728448 (6.6 GB)
+        TX packets 1286008  bytes 85550644 (85.5 MB)
+s304-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2168735  bytes 6531612430 (6.5 GB)
+        TX packets 1323608  bytes 88175544 (88.1 MB)
+s305-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13720957  bytes 912882147 (912.8 MB)
+        TX packets 22779317  bytes 65661226787 (65.6 GB)
+s305-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2272030  bytes 6672921660 (6.6 GB)
+        TX packets 1371014  bytes 91203510 (91.2 MB)
+s305-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2246712  bytes 6558199368 (6.5 GB)
+        TX packets 1351463  bytes 89924692 (89.9 MB)
+s305-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2293076  bytes 6493669032 (6.4 GB)
+        TX packets 1384038  bytes 92160190 (92.1 MB)
+s305-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2274481  bytes 6584350050 (6.5 GB)
+        TX packets 1371814  bytes 91334546 (91.3 MB)
+s305-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2249785  bytes 6473397786 (6.4 GB)
+        TX packets 1358981  bytes 90440004 (90.4 MB)
+s305-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2276526  bytes 6608279692 (6.6 GB)
+        TX packets 1373794  bytes 91449382 (91.4 MB)
+s305-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2312459  bytes 6567868054 (6.5 GB)
+        TX packets 1393800  bytes 92770282 (92.7 MB)
+s305-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2305930  bytes 6627403468 (6.6 GB)
+        TX packets 1387930  bytes 92385098 (92.3 MB)
+s305-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2273750  bytes 6447039252 (6.4 GB)
+        TX packets 1377192  bytes 91752910 (91.7 MB)
+s305-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2274629  bytes 6628534058 (6.6 GB)
+        TX packets 1366034  bytes 90859918 (90.8 MB)
+s306-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13961331  bytes 928854444 (928.8 MB)
+        TX packets 23298812  bytes 65948536225 (65.9 GB)
+s306-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2389867  bytes 6657869134 (6.6 GB)
+        TX packets 1434237  bytes 95498214 (95.4 MB)
+s306-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2305508  bytes 6656070312 (6.6 GB)
+        TX packets 1382950  bytes 91993580 (91.9 MB)
+s306-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2347731  bytes 6635858134 (6.6 GB)
+        TX packets 1405308  bytes 93512396 (93.5 MB)
+s306-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2318728  bytes 6494866608 (6.4 GB)
+        TX packets 1392618  bytes 92731836 (92.7 MB)
+s306-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2339134  bytes 6613858052 (6.6 GB)
+        TX packets 1402634  bytes 93342036 (93.3 MB)
+s306-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2302787  bytes 6480069150 (6.4 GB)
+        TX packets 1383641  bytes 92118702 (92.1 MB)
+s306-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2324834  bytes 6487341532 (6.4 GB)
+        TX packets 1398054  bytes 93126408 (93.1 MB)
+s306-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2344522  bytes 6613601084 (6.6 GB)
+        TX packets 1403290  bytes 93369372 (93.3 MB)
+s306-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2308320  bytes 6552582048 (6.5 GB)
+        TX packets 1386538  bytes 92308672 (92.3 MB)
+s306-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2317687  bytes 6757218822 (6.7 GB)
+        TX packets 1387010  bytes 92231556 (92.2 MB)
+s307-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13212983  bytes 879271879 (879.2 MB)
+        TX packets 21744588  bytes 65480398984 (65.4 GB)
+s307-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2195102  bytes 6518266708 (6.5 GB)
+        TX packets 1340123  bytes 89255857 (89.2 MB)
+s307-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2193889  bytes 6681969746 (6.6 GB)
+        TX packets 1334946  bytes 88848483 (88.8 MB)
+s307-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2193864  bytes 6539525440 (6.5 GB)
+        TX packets 1344160  bytes 89526255 (89.5 MB)
+s307-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2154457  bytes 6680736002 (6.6 GB)
+        TX packets 1307664  bytes 87011563 (87.0 MB)
+s307-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2201508  bytes 6631747696 (6.6 GB)
+        TX packets 1338716  bytes 89139495 (89.1 MB)
+s307-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2157380  bytes 6572851856 (6.5 GB)
+        TX packets 1318499  bytes 87797633 (87.7 MB)
+s307-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2064598  bytes 6140209476 (6.1 GB)
+        TX packets 1247696  bytes 82989171 (82.9 MB)
+s307-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2183847  bytes 6487362894 (6.4 GB)
+        TX packets 1329383  bytes 88558985 (88.5 MB)
+s307-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2225539  bytes 6767919462 (6.7 GB)
+        TX packets 1351113  bytes 89938609 (89.9 MB)
+s307-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2174444  bytes 6460234488 (6.4 GB)
+        TX packets 1315449  bytes 87562657 (87.5 MB)
+s308-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13969543  bytes 929397618 (929.3 MB)
+        TX packets 23306451  bytes 65811881054 (65.8 GB)
+s308-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2350175  bytes 6591235070 (6.5 GB)
+        TX packets 1411835  bytes 93957933 (93.9 MB)
+s308-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2367689  bytes 6576202082 (6.5 GB)
+        TX packets 1425266  bytes 94864535 (94.8 MB)
+s308-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2397165  bytes 6649717434 (6.6 GB)
+        TX packets 1437696  bytes 95742131 (95.7 MB)
+s308-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2302516  bytes 6559757456 (6.5 GB)
+        TX packets 1383161  bytes 92037265 (92.0 MB)
+s308-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2282875  bytes 6473253230 (6.4 GB)
+        TX packets 1370151  bytes 91159289 (91.1 MB)
+s308-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2335030  bytes 6614571780 (6.6 GB)
+        TX packets 1402813  bytes 93386429 (93.3 MB)
+s308-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2335204  bytes 6528149144 (6.5 GB)
+        TX packets 1406035  bytes 93634241 (93.6 MB)
+s308-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2273444  bytes 6793270832 (6.7 GB)
+        TX packets 1359677  bytes 90393845 (90.3 MB)
+s308-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2346967  bytes 6565947870 (6.5 GB)
+        TX packets 1403849  bytes 93471217 (93.4 MB)
+s308-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2316046  bytes 6461058356 (6.4 GB)
+        TX packets 1383811  bytes 92110157 (92.1 MB)
+s309-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13602376  bytes 905023920 (905.0 MB)
+        TX packets 22559289  bytes 65638157623 (65.6 GB)
+s309-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2257595  bytes 6664707166 (6.6 GB)
+        TX packets 1360016  bytes 90458900 (90.4 MB)
+s309-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2301653  bytes 6516544074 (6.5 GB)
+        TX packets 1394893  bytes 92901498 (92.9 MB)
+s309-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2290165  bytes 6620764330 (6.6 GB)
+        TX packets 1383897  bytes 92120038 (92.1 MB)
+s309-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2226084  bytes 6419335928 (6.4 GB)
+        TX packets 1338465  bytes 89068682 (89.0 MB)
+s309-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2274278  bytes 6674127764 (6.6 GB)
+        TX packets 1369880  bytes 91142300 (91.1 MB)
+s309-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2261793  bytes 6571446514 (6.5 GB)
+        TX packets 1363793  bytes 90773486 (90.7 MB)
+s309-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2230397  bytes 6500637850 (6.5 GB)
+        TX packets 1347362  bytes 89710928 (89.7 MB)
+s309-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2211498  bytes 6522437596 (6.5 GB)
+        TX packets 1330960  bytes 88581096 (88.5 MB)
+s309-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2238371  bytes 6601914502 (6.6 GB)
+        TX packets 1359484  bytes 90509480 (90.5 MB)
+s309-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2268352  bytes 6547686368 (6.5 GB)
+        TX packets 1368128  bytes 91088396 (91.0 MB)
+s310-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13788487  bytes 917283462 (917.2 MB)
+        TX packets 22968027  bytes 65789782867 (65.7 GB)
+s310-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2334226  bytes 6606254780 (6.6 GB)
+        TX packets 1406127  bytes 93616149 (93.6 MB)
+s310-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2217419  bytes 6660862142 (6.6 GB)
+        TX packets 1323421  bytes 87933405 (87.9 MB)
+s310-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2281369  bytes 6535787266 (6.5 GB)
+        TX packets 1369536  bytes 91122799 (91.1 MB)
+s310-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2247546  bytes 6466616164 (6.4 GB)
+        TX packets 1355461  bytes 90198213 (90.1 MB)
+s310-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2324040  bytes 6531871632 (6.5 GB)
+        TX packets 1402607  bytes 93394877 (93.3 MB)
+s310-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2348391  bytes 6644326638 (6.6 GB)
+        TX packets 1412655  bytes 94040781 (94.0 MB)
+s310-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2299156  bytes 6493111832 (6.4 GB)
+        TX packets 1381210  bytes 91938003 (91.9 MB)
+s310-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2314699  bytes 6681059238 (6.6 GB)
+        TX packets 1390136  bytes 92529919 (92.5 MB)
+s310-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2263705  bytes 6555327170 (6.5 GB)
+        TX packets 1358725  bytes 90411729 (90.4 MB)
+s310-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2337499  bytes 6614900774 (6.6 GB)
+        TX packets 1402951  bytes 93413605 (93.4 MB)
+NewStart 1481766450.38296
+enp0s31f6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 1319649  bytes 132688345 (132.6 MB)
+        TX packets 22222  bytes 4794716 (4.7 MB)
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        RX packets 1215958  bytes 87131780 (87.1 MB)
+        TX packets 1215958  bytes 87131780 (87.1 MB)
+s101-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 147146457  bytes 9824752278 (9.8 GB)
+        TX packets 237434934  bytes 658561825922 (658.5 GB)
+s101-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 123545096  bytes 329863694273 (329.8 GB)
+        TX packets 78613476  bytes 5265274285 (5.2 GB)
+s101-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 113890268  bytes 328697866019 (328.6 GB)
+        TX packets 68535255  bytes 4559678088 (4.5 GB)
+s201-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 78613306  bytes 5265263065 (5.2 GB)
+        TX packets 123544804  bytes 329863165585 (329.8 GB)
+s201-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 33451703  bytes 67549675859 (67.5 GB)
+        TX packets 24317196  bytes 1653543437 (1.6 GB)
+s201-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21828072  bytes 65282907652 (65.2 GB)
+        TX packets 13223582  bytes 879757054 (879.7 MB)
+s201-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23866688  bytes 65962007688 (65.9 GB)
+        TX packets 14202467  bytes 944334378 (944.3 MB)
+s201-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21618424  bytes 65402798448 (65.4 GB)
+        TX packets 13155739  bytes 875378022 (875.3 MB)
+s201-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22781133  bytes 65667098915 (65.6 GB)
+        TX packets 13722085  bytes 912956927 (912.9 MB)
+s202-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 68535276  bytes 4559679474 (4.5 GB)
+        TX packets 113890312  bytes 328697965939 (328.6 GB)
+s202-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23301427  bytes 65954296911 (65.9 GB)
+        TX packets 13962802  bytes 928952466 (928.9 MB)
+s202-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 21746921  bytes 65486297154 (65.4 GB)
+        TX packets 13214386  bytes 879366173 (879.3 MB)
+s202-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 23309665  bytes 65817774042 (65.8 GB)
+        TX packets 13971324  bytes 929515652 (929.5 MB)
+s202-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22562568  bytes 65644071381 (65.6 GB)
+        TX packets 13604160  bytes 905142020 (905.1 MB)
+s202-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 22969750  bytes 65795610121 (65.7 GB)
+        TX packets 13789612  bytes 917359304 (917.3 MB)
+s301-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 24317159  bytes 1653540995 (1.6 GB)
+        TX packets 33451648  bytes 67549557741 (67.5 GB)
+s301-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343919  bytes 717865702 (717.8 MB)
+        TX packets 255232  bytes 17320378 (17.3 MB)
+s301-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330855  bytes 668936966 (668.9 MB)
+        TX packets 244213  bytes 16675996 (16.6 MB)
+s301-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339983  bytes 687275190 (687.2 MB)
+        TX packets 249360  bytes 16994478 (16.9 MB)
+s301-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 346001  bytes 705083386 (705.0 MB)
+        TX packets 254091  bytes 17237516 (17.2 MB)
+s301-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341866  bytes 693608532 (693.6 MB)
+        TX packets 250042  bytes 16981978 (16.9 MB)
+s301-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333785  bytes 670223570 (670.2 MB)
+        TX packets 243713  bytes 16640540 (16.6 MB)
+s301-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 329858  bytes 663814116 (663.8 MB)
+        TX packets 241971  bytes 16560780 (16.5 MB)
+s301-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339214  bytes 683731380 (683.7 MB)
+        TX packets 249308  bytes 17011086 (17.0 MB)
+s301-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330594  bytes 665377436 (665.3 MB)
+        TX packets 241960  bytes 16530874 (16.5 MB)
+s301-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343489  bytes 692416114 (692.4 MB)
+        TX packets 252669  bytes 17238144 (17.2 MB)
+s301-eth12: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338261  bytes 683122170 (683.1 MB)
+        TX packets 247387  bytes 16870648 (16.8 MB)
+s301-eth13: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342378  bytes 688142700 (688.1 MB)
+        TX packets 250594  bytes 17108274 (17.1 MB)
+s301-eth14: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 350897  bytes 706401146 (706.4 MB)
+        TX packets 256051  bytes 17431532 (17.4 MB)
+s301-eth15: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338286  bytes 682309516 (682.3 MB)
+        TX packets 247709  bytes 16911604 (16.9 MB)
+s301-eth16: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334812  bytes 681359432 (681.3 MB)
+        TX packets 245760  bytes 16707982 (16.7 MB)
+s301-eth17: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330253  bytes 662551482 (662.5 MB)
+        TX packets 241907  bytes 16586088 (16.5 MB)
+s301-eth18: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330360  bytes 667056096 (667.0 MB)
+        TX packets 242965  bytes 16600596 (16.6 MB)
+s301-eth19: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331899  bytes 665730542 (665.7 MB)
+        TX packets 241708  bytes 16491802 (16.4 MB)
+s301-eth20: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337820  bytes 676834192 (676.8 MB)
+        TX packets 245640  bytes 16759634 (16.7 MB)
+s301-eth21: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338748  bytes 684691168 (684.6 MB)
+        TX packets 247725  bytes 16871988 (16.8 MB)
+s301-eth22: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336976  bytes 678256248 (678.2 MB)
+        TX packets 246014  bytes 16767362 (16.7 MB)
+s301-eth23: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 323720  bytes 651984216 (651.9 MB)
+        TX packets 237136  bytes 16255958 (16.2 MB)
+s301-eth24: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324844  bytes 657178320 (657.1 MB)
+        TX packets 238095  bytes 16241156 (16.2 MB)
+s301-eth25: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 347548  bytes 711814488 (711.8 MB)
+        TX packets 254421  bytes 17164152 (17.1 MB)
+s301-eth26: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341894  bytes 688434148 (688.4 MB)
+        TX packets 249364  bytes 17016230 (17.0 MB)
+s301-eth27: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334899  bytes 684101414 (684.1 MB)
+        TX packets 245680  bytes 16659786 (16.6 MB)
+s301-eth28: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335847  bytes 679292702 (679.2 MB)
+        TX packets 245662  bytes 16718526 (16.7 MB)
+s301-eth29: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342939  bytes 691684710 (691.6 MB)
+        TX packets 250193  bytes 17056156 (17.0 MB)
+s301-eth30: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332565  bytes 670849466 (670.8 MB)
+        TX packets 243443  bytes 16613412 (16.6 MB)
+s301-eth31: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330207  bytes 668199582 (668.1 MB)
+        TX packets 242758  bytes 16571978 (16.5 MB)
+s301-eth32: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330321  bytes 664687602 (664.6 MB)
+        TX packets 242100  bytes 16533126 (16.5 MB)
+s301-eth33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 320262  bytes 643824244 (643.8 MB)
+        TX packets 235322  bytes 16111842 (16.1 MB)
+s301-eth34: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342601  bytes 690986554 (690.9 MB)
+        TX packets 251003  bytes 17112900 (17.1 MB)
+s301-eth35: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340486  bytes 680541156 (680.5 MB)
+        TX packets 249052  bytes 17044394 (17.0 MB)
+s301-eth36: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 352906  bytes 713349412 (713.3 MB)
+        TX packets 259448  bytes 17598058 (17.5 MB)
+s301-eth37: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341060  bytes 689157920 (689.1 MB)
+        TX packets 249975  bytes 17035964 (17.0 MB)
+s301-eth38: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 312547  bytes 625637238 (625.6 MB)
+        TX packets 228432  bytes 15628394 (15.6 MB)
+s301-eth39: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331560  bytes 672509072 (672.5 MB)
+        TX packets 243197  bytes 16561656 (16.5 MB)
+s301-eth40: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337866  bytes 684952316 (684.9 MB)
+        TX packets 247577  bytes 16823144 (16.8 MB)
+s301-eth41: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345248  bytes 695906664 (695.9 MB)
+        TX packets 251414  bytes 17116046 (17.1 MB)
+s301-eth42: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336667  bytes 678810518 (678.8 MB)
+        TX packets 245957  bytes 16800568 (16.8 MB)
+s301-eth43: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 316685  bytes 633192402 (633.1 MB)
+        TX packets 231834  bytes 15900666 (15.9 MB)
+s301-eth44: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333616  bytes 669976744 (669.9 MB)
+        TX packets 244759  bytes 16737656 (16.7 MB)
+s301-eth45: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 318912  bytes 641556640 (641.5 MB)
+        TX packets 233956  bytes 16060654 (16.0 MB)
+s301-eth46: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 327611  bytes 659478646 (659.4 MB)
+        TX packets 240138  bytes 16399362 (16.3 MB)
+s301-eth47: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 341723  bytes 692564286 (692.5 MB)
+        TX packets 249828  bytes 16953878 (16.9 MB)
+s301-eth48: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340081  bytes 694497698 (694.4 MB)
+        TX packets 249702  bytes 16940182 (16.9 MB)
+s301-eth49: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330335  bytes 662273486 (662.2 MB)
+        TX packets 242437  bytes 16596220 (16.5 MB)
+s301-eth50: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324605  bytes 657590106 (657.5 MB)
+        TX packets 238640  bytes 16251670 (16.2 MB)
+s301-eth51: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 346511  bytes 702731310 (702.7 MB)
+        TX packets 253443  bytes 17218000 (17.2 MB)
+s301-eth52: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336816  bytes 678481016 (678.4 MB)
+        TX packets 246093  bytes 16835800 (16.8 MB)
+s301-eth53: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331151  bytes 671160678 (671.1 MB)
+        TX packets 243020  bytes 16530726 (16.5 MB)
+s301-eth54: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339976  bytes 685770736 (685.7 MB)
+        TX packets 248946  bytes 16959530 (16.9 MB)
+s301-eth55: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 317847  bytes 635031622 (635.0 MB)
+        TX packets 232604  bytes 15952730 (15.9 MB)
+s301-eth56: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339379  bytes 688129270 (688.1 MB)
+        TX packets 248134  bytes 16887654 (16.8 MB)
+s301-eth57: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333903  bytes 674529982 (674.5 MB)
+        TX packets 244206  bytes 16637506 (16.6 MB)
+s301-eth58: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 320531  bytes 648192590 (648.1 MB)
+        TX packets 235646  bytes 16099534 (16.0 MB)
+s301-eth59: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335389  bytes 673887954 (673.8 MB)
+        TX packets 245388  bytes 16741706 (16.7 MB)
+s301-eth60: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334411  bytes 675023102 (675.0 MB)
+        TX packets 244913  bytes 16715768 (16.7 MB)
+s301-eth61: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333215  bytes 670334110 (670.3 MB)
+        TX packets 243268  bytes 16586554 (16.5 MB)
+s301-eth62: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336848  bytes 684653408 (684.6 MB)
+        TX packets 246829  bytes 16724736 (16.7 MB)
+s301-eth63: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 343881  bytes 690976234 (690.9 MB)
+        TX packets 249947  bytes 17037196 (17.0 MB)
+s301-eth64: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332022  bytes 667759228 (667.7 MB)
+        TX packets 241816  bytes 16489618 (16.4 MB)
+s301-eth65: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 291921  bytes 583995338 (583.9 MB)
+        TX packets 212124  bytes 14435282 (14.4 MB)
+s301-eth66: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 350007  bytes 708467958 (708.4 MB)
+        TX packets 255943  bytes 17382652 (17.3 MB)
+s301-eth67: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331852  bytes 670229352 (670.2 MB)
+        TX packets 243751  bytes 16644844 (16.6 MB)
+s301-eth68: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 354081  bytes 715297578 (715.2 MB)
+        TX packets 257836  bytes 17537070 (17.5 MB)
+s301-eth69: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 329426  bytes 663899532 (663.8 MB)
+        TX packets 241726  bytes 16540098 (16.5 MB)
+s301-eth70: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 328979  bytes 663611438 (663.6 MB)
+        TX packets 241022  bytes 16488626 (16.4 MB)
+s301-eth71: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 337949  bytes 681928226 (681.9 MB)
+        TX packets 247071  bytes 16825668 (16.8 MB)
+s301-eth72: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334013  bytes 673311578 (673.3 MB)
+        TX packets 244009  bytes 16654040 (16.6 MB)
+s301-eth73: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340822  bytes 687062156 (687.0 MB)
+        TX packets 249198  bytes 16995794 (16.9 MB)
+s301-eth74: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 324345  bytes 658560138 (658.5 MB)
+        TX packets 237749  bytes 16223932 (16.2 MB)
+s301-eth75: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 339112  bytes 684173592 (684.1 MB)
+        TX packets 248120  bytes 16905202 (16.9 MB)
+s301-eth76: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 344883  bytes 693719678 (693.7 MB)
+        TX packets 251633  bytes 17140216 (17.1 MB)
+s301-eth77: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 346329  bytes 700182530 (700.1 MB)
+        TX packets 252656  bytes 17166282 (17.1 MB)
+s301-eth78: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 319930  bytes 652816180 (652.8 MB)
+        TX packets 235642  bytes 16041610 (16.0 MB)
+s301-eth79: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 330250  bytes 667639740 (667.6 MB)
+        TX packets 241607  bytes 16484196 (16.4 MB)
+s301-eth80: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 313656  bytes 633612536 (633.6 MB)
+        TX packets 230104  bytes 15765106 (15.7 MB)
+s301-eth81: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 328380  bytes 663317112 (663.3 MB)
+        TX packets 240782  bytes 16412842 (16.4 MB)
+s301-eth82: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 345560  bytes 697094536 (697.0 MB)
+        TX packets 252693  bytes 17195020 (17.1 MB)
+s301-eth83: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331464  bytes 665194976 (665.1 MB)
+        TX packets 242344  bytes 16562086 (16.5 MB)
+s301-eth84: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333603  bytes 671986430 (671.9 MB)
+        TX packets 243907  bytes 16659644 (16.6 MB)
+s301-eth85: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 344223  bytes 699674966 (699.6 MB)
+        TX packets 250295  bytes 17019352 (17.0 MB)
+s301-eth86: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 331013  bytes 668049114 (668.0 MB)
+        TX packets 241569  bytes 16509652 (16.5 MB)
+s301-eth87: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334174  bytes 671374724 (671.3 MB)
+        TX packets 244246  bytes 16685434 (16.6 MB)
+s301-eth88: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336201  bytes 680954962 (680.9 MB)
+        TX packets 245827  bytes 16705752 (16.7 MB)
+s301-eth89: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 338015  bytes 683405886 (683.4 MB)
+        TX packets 246687  bytes 16784300 (16.7 MB)
+s301-eth90: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 340764  bytes 687152512 (687.1 MB)
+        TX packets 248790  bytes 16946702 (16.9 MB)
+s301-eth91: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 333421  bytes 674414970 (674.4 MB)
+        TX packets 243935  bytes 16584048 (16.5 MB)
+s301-eth92: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 342547  bytes 682303750 (682.3 MB)
+        TX packets 249169  bytes 17044596 (17.0 MB)
+s301-eth93: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 347261  bytes 705147178 (705.1 MB)
+        TX packets 254529  bytes 17272580 (17.2 MB)
+s301-eth94: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335548  bytes 675385568 (675.3 MB)
+        TX packets 245013  bytes 16703536 (16.7 MB)
+s301-eth95: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 327078  bytes 659119364 (659.1 MB)
+        TX packets 239196  bytes 16326710 (16.3 MB)
+s301-eth96: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 335871  bytes 678665438 (678.6 MB)
+        TX packets 245753  bytes 16691216 (16.6 MB)
+s301-eth97: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 322754  bytes 652494244 (652.4 MB)
+        TX packets 236112  bytes 16139194 (16.1 MB)
+s301-eth98: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 336510  bytes 678400500 (678.4 MB)
+        TX packets 245510  bytes 16725818 (16.7 MB)
+s301-eth99: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 334621  bytes 680301882 (680.3 MB)
+        TX packets 245564  bytes 16684562 (16.6 MB)
+s301-eth100: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 332673  bytes 676724026 (676.7 MB)
+        TX packets 243813  bytes 16580924 (16.5 MB)
+s301-eth101: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 315309  bytes 638314042 (638.3 MB)
+        TX packets 232451  bytes 15922756 (15.9 MB)
+s302-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 13223551  bytes 879755008 (879.7 MB)
+        TX packets 21828066  bytes 65282784176 (65.2 GB)
+s302-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2143057  bytes 6056946002 (6.0 GB)
+        TX packets 1298459  bytes 86462232 (86.4 MB)
+s302-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2160773  bytes 6497713578 (6.4 GB)
+        TX packets 1310716  bytes 87233074 (87.2 MB)
+s302-eth4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2154637  bytes 6542208682 (6.5 GB)
+        TX packets 1308269  bytes 87046896 (87.0 MB)
+s302-eth5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2179206  bytes 6536184924 (6.5 GB)
+        TX packets 1324096  bytes 88136142 (88.1 MB)
+s302-eth6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2234530  bytes 6729667140 (6.7 GB)
+        TX packets 1353913  bytes 90080764 (90.0 MB)
+s302-eth7: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2203675  bytes 6586527342 (6.5 GB)
+        TX packets 1338786  bytes 89156474 (89.1 MB)
+s302-eth8: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2179821  bytes 6640094562 (6.6 GB)
+        TX packets 1322390  bytes 88023634 (88.0 MB)
+s302-eth9: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2185354  bytes 6583711076 (6.5 GB)
+        TX packets 1325614  bytes 88226930 (88.2 MB)
+s302-eth10: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2188394  bytes 6542185852 (6.5 GB)
+        TX packets 1330068  bytes 88550686 (88.5 MB)
+s302-eth11: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 2198612  bytes 6567601776 (6.5 GB)
+        TX packets 1326737  bytes 88274220 (88.2 MB)
+s303-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        RX packets 14202467  bytes 944334378 (944.3 MB)
+        TX packets 23866674  bytes 65961986492 (65.9 GB)
+s303-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500

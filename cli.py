@@ -121,12 +121,13 @@ class CLI( Cmd ):
         elif len(args) == 1:
             test_time = float(args[ 0 ])
             self.mn.poisson_multi( test_time )
-        elif len(args) == 2:
+        elif len(args) == 3:
             test_time = float(args[ 0 ])
-            lambd = float(args[1])
-            self.mn.poisson_multi(test_time,lambd)
+            lambd1 = float(args[1])
+            lambd2 = float(args[2])
+            self.mn.poisson_multi(test_time,lambd1,lambd2 )
         else:
-            error('invalid number of args: onoffmulti 15(test_time) 1.5(lambd)\n' )
+            error('invalid number of args: poissonmulti 15(test_time) 16(lambda1) 17(lambda2)\n' )
 
     def do_onoffmulti( self, line ):
         """Multi iperf TCP in on_off mode"""
@@ -136,13 +137,14 @@ class CLI( Cmd ):
         elif len(args) == 1:
             test_time = int(args[ 0 ])
             self.mn.onoff_multi( test_time )
-        elif len(args) == 2:
+        elif len(args) == 3:
             test_time = int(args[ 0 ])
-            alpha = float(args[ 1 ])
+            alpha1 = float(args[ 1 ])
+            alpha2 = float(args[ 2 ])
             err = False
-            self.mn.onoff_multi( test_time,alpha )
+            self.mn.onoff_multi( test_time,alpha1,alpha2 )
         else:
-            error('invalid number of args: onoffmulti 15(test_time) 1.5(alpha)\n' )
+            error('invalid number of args: onoffmulti 15(test_time) 1.1(alpha1) 1.3(alpha2)\n' )
 
     def do_iperfmulti( self,line ):
         """Activate several stable TCP traffic using iperf command"""
@@ -152,26 +154,37 @@ class CLI( Cmd ):
         elif len(args) == 1:
             self.mn.iperf_multi( args[0] )
         else:
-            error('invalid number of args' )
+            error('invalid number of args:iperfmulti 15(test_time)' )
 
     def do_hostports( self, line ):
         "Configure host ports to a given transmit speed"
         args = line.split()
         if len(args) == 0:
             self.mn.host_ports_config()
-        if len(args) == 1:
-            bdwidth = args[ 0 ] 
-            self.mn.host_ports_config( bdwidth )
+        elif len(args) == 1:
+            self.mn.host_ports_config( args[0] )
+        elif len(args) == 2:
+            self.mn.host_ports_config( args[0] , args[1] )
+        else:
+            error('invalid number of args:hostports 0.001(Gbit/s,h1 to h50) 0.1(Gbit/s,h51 to h120)' )
 
-    def do_gsochange( self , line ):
-        "Turn off gso function of normal hosts"
+    def do_servermulti( self ,line):
+        "Start nine iperf servers on one host"
         args = line.split()
         if len(args) == 0:
-            self.mn.gso_change('off')
-        elif len(args) == 1:
-            self.mn.gso_change(args[0])
+            self.mn.server_multi()
         else:
-            error('invalid number of args' )
+            error('invalid number of args:nineS ' )
+
+    def do_selfdefine( self , line):
+        "Do something you want"
+        args = line.split()
+        if len(args) == 0:
+            self.mn.self_define()
+        elif len(args) == 1:
+            self.mn.self_define(args[0])
+        else:
+            error('invalid number of args:nineS ' )
 
     def emptyline( self ):
         "Don't repeat last command when you hit return."

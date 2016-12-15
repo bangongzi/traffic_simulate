@@ -116,48 +116,50 @@ VERSION = "2.3.0d1"
 ###############################headerchanged part############################################
 def portrandom():
     r = int( ( random.random() )*100000 )
-    r = (r % 9) + 1
-    pnum = '500' + str(r) 
+    r = (r % 5) + 1
+    pnum = '120' + str((r/10)) + str((r%10))
     return pnum
 
-def on_off( hosts,test_time,alpha,lock ):
+def on_off( hosts,test_time,alpha1,alpha2,lock ):
     """Give the model of a simple 
     ON_OFF module"""
     client,server = hosts
     print "Thread%s starts at:" %client.name[1:],time.strftime('%Y-%m-%d %H:%M:%S')
     a = time.time() + test_time
+    pnum = portrandom()
     b = time.time()
     while b <  a :
         b = time.time()
-        t1 = random.paretovariate( alpha ) * 0.010
-        t2 = random.paretovariate( alpha ) * 0.010
+        t1 = random.paretovariate( alpha1 )
+        t2 = random.paretovariate( alpha2 ) * 0.1
         if (t1+t2)>(a-b+3):
             continue
-        pnum = portrandom()
+        if t1 < 0.011:
+            continue
         #on mode
-        client.cmd( 'iperf -t' + ' ' + str(t1) + ' -c' + ' ' + server.IP() + ' -p' + ' ' +pnum )
+        client.cmd( 'netperf' + ' -H ' + server.IP()+' -p '+pnum+' -l '+str(t1)+' -- -m 1024 -s 5120' )
         #off mode
         time.sleep(t2)
     lock.release()
     print "Thread%s ends at:" %client.name[1:],time.strftime('%Y-%m-%d %H:%M:%S')
     return
 
-def poisson( hosts,test_time,lambd,lock ):
+def poisson( hosts,test_time,lambd1,lambd2,lock ):
     """Give the model of a simple 
     possion module"""
     client,server = hosts
     print "Thread%s starts at:" %client.name[1:],time.strftime('%Y-%m-%d %H:%M:%S')
     a = time.time() + test_time
     b = time.time()
+    pnum = portrandom()
     while b <  a :
         b = time.time()
-        t1 = 0.075
-        t2 = random.expovariate( lambd )
-        if (t1+t2)>(a-b+3):
+        t1 = random.expovariate( lambd1 ) * 100
+        t2 = random.expovariate( lambd2 ) *18
+        if (t1+t2)>(a-b+3) or t1 < 1:
             continue
-        pnum = portrandom()
         #on mode
-        client.cmd( 'iperf -t' + ' ' + str(t1) + ' -c' + ' ' + server.IP() + ' -p' +' '+ pnum )
+        client.cmd( 'netperf' + ' -H ' + server.IP()+' -p '+pnum+' -l '+str(t1)+' -- -m 1024 -s 5120' )
         #off mode
         time.sleep(t2)
     lock.release()
@@ -928,26 +930,22 @@ class Mininet( object ):
         cls.inited = True
 
 ##################################################################################
-##############################bodychanged part starts#################################
+##############################bodychanged part starts#############################
 ##################################################################################
 
 
     def iperf_single( self,hosts,test_time ):
         """Run iperf between two hosts using TCP"""
         client, server = hosts
-        filename = client.name[1:]
         output( "*** Iperf: building TCP connection between %s and %s\n" % ( client.name, server.name ) )
-        pnum = portrandom()
-#        client.cmd('iperf -t'+' '+test_time+' -c'+' '+server.IP()+' -p'+' '+pnum +' &')
-        client.cmd('iperf -t'+' '+test_time+' -c'+' '+server.IP()+' &')
+#        pnum = portrandom()
+        pnum = '5001'
+        client.cmd('iperf -t'+' '+test_time+' -c'+' '+server.IP()+' -p'+' '+pnum + ' &' )
+#        client.cmd('iperf -t'+' '+test_time+' -c'+' '+server.IP()+' &')
 
-    def statics_output(self,host_list,sw):
-        leng = len(host_list)
-        #collect netstat information of each host,output the information to the h*netstat.txt
-        for i in range(leng):
-            client = host_list[i]
-            filename = client.name[1:]
-            client.cmd('netstat -s '+' >> /home/per/log/'  + 'h'+ filename +'netstat.txt')
+    def statics_output(self):
+        switch_list = [sw for sw in self.switches]
+        sw = switch_list[0]
         #output netstat -i information and ifconfig information
         sw.cmd('netstat -i >> /home/per/log/interfaces.txt')
         sw.cmd('ifconfig >> /home/per/log/ifconfig.txt')
@@ -956,29 +954,26 @@ class Mininet( object ):
     def iperf_multi( self,test_time = '15' ):
         "Bulding stable TCP connections"
         host_list = [h for h in self.hosts]
-        switch_list = [sw for sw in self.switches]
         tag_num = len(host_list) - 1
         server= host_list[tag_num]
-        sw0 = switch_list[0]
         for i in xrange(0,tag_num):
             client = host_list[i]
             self.iperf_single( [client,server],test_time)
-            time.sleep(0.05)
+            time.sleep(0.01)
         time.sleep( float(test_time)+0.2 )
         print "The stable TCP test has been done."
         #Output statics
-        self.statics_output(host_list,sw0)
+        self.statics_output()
 
-    def poisson_multi( self,test_time = 15,lambd = 13.3 ):
+    def poisson_multi( self,test_time = 15,lambd1 = 17 ,lambd2 = 27 ):
         """Get to activate many hosts,each host give a 75ms TCP connection,then wait for a
            random time t ,t obey exponential distribution ,the expentation of t is 75 ms"""
         host_list = [h for h in self.hosts]
-        switch_list = [sw for sw in self.switches]
         locks = []
         tag_num = len(host_list) - 1
         server= host_list[tag_num]
-        sw0 = switch_list[0]
         print "The test in poisson starts at:",time.strftime('%Y-%m-%d %H:%M:%S')
+        start_time = time.time()
         #Add locks
         for i in xrange(0, tag_num):
             lock = thread.allocate_lock()
@@ -987,7 +982,7 @@ class Mininet( object ):
         #Add new threads
         for i in xrange(0,tag_num):
             client = host_list[i]
-            thread.start_new_thread( poisson,([client,server],test_time,lambd,locks[i],))
+            thread.start_new_thread( poisson,([client,server],test_time,lambd1,lambd2,locks[i],))
             time.sleep(0.002)
         print "********cut line**********"
         #Wait all the threads end
@@ -995,20 +990,21 @@ class Mininet( object ):
             while locks[i].locked():
                 pass
         print "The test in poisson ends at:",time.strftime('%Y-%m-%d %H:%M:%S')
+        end_time = time.time()
+        derta =end_time-start_time
+        print "The test time is:%.1fs" %  derta
         #Output statics
-        self.statics_output(host_list,sw0)
+        self.statics_output()
         
-    def onoff_multi(self,test_time = 15,alpha = 1.5 ):
+    def onoff_multi(self,test_time = 15,alpha1 = 1.1 ,alpha2 = 1.3 ):
         """Get to activate many hosts.each host give out a on_off traffic
         The basic way to use mutiple hosts is thread"""
         host_list = [h for h in self.hosts]
-        switch_list = [sw for sw in self.switches]
         locks = []
         tag_num = len(host_list) - 1
         server= host_list[tag_num]
-        sw0 = switch_list[0]
-        print "The alpha is:",alpha
         print "The test in on_off starts at:",time.strftime('%Y-%m-%d %H:%M:%S')
+        start_time = time.time()
         #Add locks
         for i in xrange(0, tag_num):
             lock = thread.allocate_lock()
@@ -1017,35 +1013,55 @@ class Mininet( object ):
         #Add new threads
         for i in xrange(0,tag_num):
             client = host_list[i]
-            thread.start_new_thread( on_off,([client,server],test_time,alpha,locks[i],))
+            thread.start_new_thread( on_off,([client,server],test_time,alpha1,alpha2,locks[i],))
             time.sleep(0.002)
+        #print "The test in on_off starts at:",time.strftime('%Y-%m-%d %H:%M:%S')
         print "********cut line**********"
         #Wait all the threads end
         for i in xrange(0,tag_num):
             while locks[i].locked():
                 pass
         print "The test in on_off ends at:",time.strftime('%Y-%m-%d %H:%M:%S')
+        end_time = time.time()
+        derta =end_time-start_time
+        print "The test time is:%.1fs" %  derta
         #Output statics
-        self.statics_output(host_list,sw0)
+        self.statics_output()
 
-    def gso_change( self , sign ):
-        "Turn  gso function of normal hosts on or off"
-        host_list = [h for h in self.hosts]
-        tag_num = len(host_list) - 1
-        for i in xrange(0,tag_num):
-            host = host_list[i]
-            host.cmd('ethtool -K'+' '+'h'+host.name[1:]+'-eth0'+' tx'+' '+sign+ ' rx'+' '+ sign)
-        print "The gso function of h1 to h%d has been adjusted" %tag_num
-
-    def host_ports_config( self,bandwidth = '0.1' ):
+    def host_ports_config( self,bandwidth1 = '0.005',bandwidth2 = '0.05' ):        
         """Configure host ports to a given transmit speed"""
         host_list = [h for h in self.hosts]
         tag_num = len(host_list) - 1
-        for i in xrange(0,tag_num):
+        for i in range(tag_num):
             host = host_list[i]
             seq_num = host.name[1:]
-            host.cmd('./host_port_config.sh'+' '+seq_num+' 0'+' 2'+ ' ' +bandwidth )
+            if i < 100:
+                host.cmd('./host_port_config.sh'+' '+seq_num+' 0'+' 2'+ ' ' + bandwidth1 )
+            elif i < 190:
+                host.cmd('./host_port_config.sh'+' '+seq_num+' 0'+' 2'+ ' ' + bandwidth2 )
+            else:
+                print "Wrong values of i from host[i]"
         print "The ports of host1 to host%d has been configured" %tag_num
+
+    def server_multi( self ):
+        """Start nine iperf servers on one host"""
+        host_list = [ h for h in self.hosts ]
+        tag_num = len(host_list) - 1
+        host = host_list[tag_num]
+        for i in xrange(1,6):
+            port = '50' + str((i/10)) + str((i%10))
+            filename = 'server-p'+port+'.out'
+            host.cmd( 'iperf -s -p'+' '+port+' >> /home/per/log/'+filename+' & ')
+            time.sleep(0.05)
+
+    def self_define( self,arg1 = '10' ):
+        """get multiple vlc workers"""
+        host_list = [ h for h in self.hosts ]
+        server = host_list[-1]
+        for i in range(int(arg1)):
+            host = host_list[i]
+            host.cmd( 'netperf -H '+server.IP()+' -l 10 >> /home/per/log/h' + host.name[1:]+'.txt'+' &' )
+            time.sleep(0.01)
 	
 ##################################################################################
 ##############################body part ends###################################
