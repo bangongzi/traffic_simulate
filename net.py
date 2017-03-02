@@ -123,47 +123,55 @@ def portrandom():
 def on_off( hosts,test_time,alpha1,alpha2,lock ):
     """Give the model of a simple 
     ON_OFF module"""
-    client,server = hosts
-    print "Thread%s starts at:" %client.name[1:],time.strftime('%Y-%m-%d %H:%M:%S')
+    clients = hosts[0:-1]
+    server = hosts[-1]
+    print "Thread driving h%s to h%s starts at:" %(clients[0].name[1:],clients[-1].name[1:]),time.strftime('%Y-%m-%d %H:%M:%S')
     a = time.time() + test_time
-    pnum = portrandom()
-    b = time.time()
-    while b <  a :
-        b = time.time()
-        t1 = random.paretovariate( alpha1 )
-        t2 = random.paretovariate( alpha2 ) * 0.1
-        if (t1+t2)>(a-b+3):
-            continue
-        if t1 < 0.011:
+    b = time.time()    
+    while b <  a :        
+        t1 = random.paretovariate( 1.1 )
+        t2 = random.paretovariate( 1.2 ) * 0.1
+        if (t1+t2)>(a-b+3) or t1 < 1:
             continue
         #on mode
+        pnum = portrandom()
+        for client in clients[0:-1]:
+            client.cmd( 'netperf' + ' -H ' + server.IP()+' -p '+pnum+' -l '+str(t1)+' -- -m 1024 -s 5120 &' )
+            time.sleep(0.001)
+        client=clients[-1]
         client.cmd( 'netperf' + ' -H ' + server.IP()+' -p '+pnum+' -l '+str(t1)+' -- -m 1024 -s 5120' )
         #off mode
         time.sleep(t2)
+        b = time.time()
     lock.release()
-    print "Thread%s ends at:" %client.name[1:],time.strftime('%Y-%m-%d %H:%M:%S')
+    print "Thread driving h%s to h%s ends at:" %(clients[0].name[1:],clients[-1].name[1:]),time.strftime('%Y-%m-%d %H:%M:%S')
     return
 
 def poisson( hosts,test_time,lambd1,lambd2,lock ):
     """Give the model of a simple 
     possion module"""
-    client,server = hosts
-    print "Thread%s starts at:" %client.name[1:],time.strftime('%Y-%m-%d %H:%M:%S')
+    clients = hosts[0:-1]
+    server = hosts[-1]
+    print "Thread driving h%s to h%s starts at:" %(clients[0].name[1:],clients[-1].name[1:]),time.strftime('%Y-%m-%d %H:%M:%S')
     a = time.time() + test_time
-    b = time.time()
-    pnum = portrandom()
-    while b <  a :
-        b = time.time()
-        t1 = random.expovariate( lambd1 ) * 100
-        t2 = random.expovariate( lambd2 ) *18
+    b = time.time()    
+    while b <  a :        
+        t1 = random.expovariate( lambd1 ) * 1000
+        t2 = random.expovariate( lambd2 ) * 1500
         if (t1+t2)>(a-b+3) or t1 < 1:
             continue
         #on mode
+        pnum = portrandom()
+        for client in clients[0:-1]:
+            client.cmd( 'netperf' + ' -H ' + server.IP()+' -p '+pnum+' -l '+str(t1)+' -- -m 1024 -s 5120 &' )
+            time.sleep(0.001)
+        client=clients[-1]
         client.cmd( 'netperf' + ' -H ' + server.IP()+' -p '+pnum+' -l '+str(t1)+' -- -m 1024 -s 5120' )
         #off mode
         time.sleep(t2)
+        b = time.time()
     lock.release()
-    print "Thread%s ends at:" %client.name[1:],time.strftime('%Y-%m-%d %H:%M:%S')
+    print "Thread driving h%s to h%s ends at:" %(clients[0].name[1:],clients[-1].name[1:]),time.strftime('%Y-%m-%d %H:%M:%S')
     return
 
 class Mininet( object ):
@@ -965,7 +973,7 @@ class Mininet( object ):
         #Output statics
         self.statics_output()
 
-    def poisson_multi( self,test_time = 15,lambd1 = 17 ,lambd2 = 27 ):
+    def poisson_multi( self,test_time = 15,lambd1 = 170 ,lambd2 = 270 ):
         """Get to activate many hosts,each host give a 75ms TCP connection,then wait for a
            random time t ,t obey exponential distribution ,the expentation of t is 75 ms"""
         host_list = [h for h in self.hosts]
@@ -975,18 +983,21 @@ class Mininet( object ):
         print "The test in poisson starts at:",time.strftime('%Y-%m-%d %H:%M:%S')
         start_time = time.time()
         #Add locks
-        for i in xrange(0, tag_num):
+        for i in xrange(0, 22):
             lock = thread.allocate_lock()
             lock.acquire()
             locks.append(lock)
         #Add new threads
-        for i in xrange(0,tag_num):
-            client = host_list[i]
-            thread.start_new_thread( poisson,([client,server],test_time,lambd1,lambd2,locks[i],))
-            time.sleep(0.002)
+        for i in xrange(0,22):
+            if i < 4:
+                hosts=host_list[(i*25):((i+1)*25)]+[server]
+            else:
+                hosts=host_list[(100+5*(i-4)):(100)+5*(i-3)]+[server]
+            thread.start_new_thread( poisson,(hosts,test_time,lambd1,lambd2,locks[i],))
+            time.sleep(0.02)
         print "********cut line**********"
         #Wait all the threads end
-        for i in xrange(0,tag_num):
+        for i in xrange(0,22):
             while locks[i].locked():
                 pass
         print "The test in poisson ends at:",time.strftime('%Y-%m-%d %H:%M:%S')
@@ -996,7 +1007,7 @@ class Mininet( object ):
         #Output statics
         self.statics_output()
         
-    def onoff_multi(self,test_time = 15,alpha1 = 1.1 ,alpha2 = 1.3 ):
+    def onoff_multi(self,test_time = 15,alpha1 = 1.1 ,alpha2 = 1.2 ):
         """Get to activate many hosts.each host give out a on_off traffic
         The basic way to use mutiple hosts is thread"""
         host_list = [h for h in self.hosts]
@@ -1005,20 +1016,26 @@ class Mininet( object ):
         server= host_list[tag_num]
         print "The test in on_off starts at:",time.strftime('%Y-%m-%d %H:%M:%S')
         start_time = time.time()
+        group1=[25,25,25,25]
+        group2=[5,5]
+        len1=len(group1)
+        lock_num=len(group1)+9*len(group2)
         #Add locks
-        for i in xrange(0, tag_num):
+        for i in xrange(0, lock_num):
             lock = thread.allocate_lock()
             lock.acquire()
             locks.append(lock)
         #Add new threads
-        for i in xrange(0,tag_num):
-            client = host_list[i]
-            thread.start_new_thread( on_off,([client,server],test_time,alpha1,alpha2,locks[i],))
-            time.sleep(0.002)
-        #print "The test in on_off starts at:",time.strftime('%Y-%m-%d %H:%M:%S')
+        for i in xrange(0,lock_num):
+            if i < len1:
+                hosts=host_list[(i*25):((i+1)*25)]+[server]
+            else:
+                hosts=host_list[(100+5*(i-len1)):(100)+5*(i-len1+1)]+[server]
+            thread.start_new_thread( on_off,(hosts,test_time,alpha1,alpha2,locks[i],))
+            time.sleep(0.02)
         print "********cut line**********"
         #Wait all the threads end
-        for i in xrange(0,tag_num):
+        for i in xrange(0,lock_num):
             while locks[i].locked():
                 pass
         print "The test in on_off ends at:",time.strftime('%Y-%m-%d %H:%M:%S')
