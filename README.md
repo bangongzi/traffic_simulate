@@ -3,11 +3,16 @@ Here is for Gaussian and Self similarity module
 
 ##拓扑
 仿真拓扑写在half_useful_topo.py文件中
+左上角边缘层交换机连接100个主机，将其中25个主机组成一组，这一组主机同时打流，同时休息。
+其它边缘层交换机连接10个主机，分为5个主机一组。
+190边缘层主机，１０接入层交换机，３核心层交换机，１服务器
+
+##详细使用见代码
 
 ##mininet部分
 cli.py,net.py，mn三个文件是mininet中被修改的部分，前两个文件存放目录分别为/mininet/mininet，第三个文件存放目录为/mininet/bin
 修改mininet后扩展了四条功能，分别是hostports,iperfmulti,onoffmulti,poissonmulti,他们的用法如下：
-hostports 0.1(Gbit/s,bandwidth）：该命令可以限制主机h1到h100的出口速率，第一个参数为主机最大出口速率
+hostports 0.1(Gbit/s,bandwidth）　0.2：该命令可以限制主机h1到h100的出口速率，第一个参数为主机最大出口速率;以及之后九十个主机出口速率。
 iperfmulti 15(s,test_time):该命令可以让h1到h100向服务器主机打稳定的TCP流，第一个参数为稳定流的持续时间
 onoffmulti 15(s,test_time) 1.2(alpha1) 1.3(alpha2):该命令可以让h1到h100向服务器主机打符合自相似规律的TCP流，第一个参数为打流持续时间，第二个参数为Pareto分布参数alpha
 poissonmulti 15(s,test_time) 17(lambda1) 27(lambad2):该命令可以让h1到h100向服务器主机打符合MMPP规律的TCP流，第一个参数为打流持续时间，第二个参数为指数分布分布参数lambda
